@@ -20,6 +20,7 @@ const columns = {
   level: "text",
   sector: "text",
   price: "number",
+  live_dividend: "number",
   live_yield: "number",
   avg_yield_5y: "number",
   live_yield_diff_5y: "number",
@@ -213,6 +214,7 @@ function renderMobileCards(rows) {
     metrics.className = "mobile-metrics";
     metrics.append(
       makeMetric("현재가", formatCurrency(row.price)),
+      makeMetric("연 배당금", formatCurrency(row.live_dividend)),
       makeMetric("현재 배당률", formatPercent(row.live_yield)),
       makeMetric("5년 평균", formatPercent(row.avg_yield_5y)),
       makeMetric("5년 차이", formatPercent(row.live_yield_diff_5y), row.live_yield_diff_5y > 0 ? "positive-text" : ""),
@@ -256,6 +258,7 @@ function renderTable() {
       makeCell(makePill(row.level)),
       makeCell(row.sector || "-"),
       makeCell(formatCurrency(row.price), "numeric"),
+      makeCell(formatCurrency(row.live_dividend), "numeric"),
       makeCell(formatPercent(row.live_yield), "numeric"),
       makeCell(formatPercent(row.avg_yield_5y), "numeric"),
       makeCell(diff5y, "numeric emphasis"),
@@ -285,12 +288,12 @@ function openDetail(row) {
       <div><span>카테고리</span>${row.asset_category || "주식"}</div>
       <div><span>ETF 유형</span>${row.etf_type || "-"}</div>
       <div><span>현재가</span>${formatCurrency(row.price)}</div>
+      <div><span>연 배당금</span>${formatCurrency(row.live_dividend)}</div>
       <div><span>현재 배당률</span>${formatPercent(row.live_yield)}</div>
       <div><span>5년 평균 배당률</span>${formatPercent(row.avg_yield_5y)}</div>
       <div><span>5년 평균 대비 차이</span>${formatPercent(row.live_yield_diff_5y)}</div>
       <div><span>10년 평균 배당률</span>${formatPercent(row.avg_yield_10y)}</div>
       <div><span>평균 대비 차이</span>${formatPercent(row.live_yield_diff)}</div>
-      <div><span>연 배당금</span>${formatCurrency(row.live_dividend)}</div>
       <div><span>지급월</span>${row.pay_months || "-"}</div>
       <div><span>조회 시각</span>${formatKst(row.fetched_at)} KST</div>
     </div>
