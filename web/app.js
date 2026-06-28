@@ -44,6 +44,7 @@ const els = {
   positiveCount: document.querySelector("#positiveCount"),
   failedCount: document.querySelector("#failedCount"),
   tableBody: document.querySelector("#tableBody"),
+  mobileList: document.querySelector("#mobileList"),
   emptyState: document.querySelector("#emptyState"),
   detailDialog: document.querySelector("#detailDialog"),
   detailContent: document.querySelector("#detailContent"),
@@ -170,6 +171,64 @@ function makePill(text, extraClass = "") {
   return span;
 }
 
+function makeMetric(label, value, className = "") {
+  const item = document.createElement("div");
+  item.className = "mobile-metric";
+  const labelEl = document.createElement("span");
+  labelEl.textContent = label;
+  const valueEl = document.createElement("strong");
+  if (className) valueEl.className = className;
+  valueEl.textContent = value;
+  item.append(labelEl, valueEl);
+  return item;
+}
+
+function renderMobileCards(rows) {
+  els.mobileList.replaceChildren();
+  rows.forEach((row) => {
+    const card = document.createElement("article");
+    card.className = `mobile-card ${row.status === "failed" ? "failed" : ""}`.trim();
+    card.tabIndex = 0;
+    card.addEventListener("click", () => openDetail(row));
+    card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") openDetail(row);
+    });
+
+    const header = document.createElement("div");
+    header.className = "mobile-card-header";
+    const title = document.createElement("div");
+    const name = document.createElement("h3");
+    name.textContent = row.name_ko || row.ticker || "-";
+    const ticker = document.createElement("span");
+    ticker.className = "ticker";
+    ticker.textContent = row.ticker || "-";
+    title.append(name, ticker);
+    const category = document.createElement("div");
+    category.className = "mobile-pills";
+    category.append(makePill(row.asset_category || "주식"));
+    if (row.etf_type) category.append(makePill(row.etf_type));
+    header.append(title, category);
+
+    const metrics = document.createElement("div");
+    metrics.className = "mobile-metrics";
+    metrics.append(
+      makeMetric("현재가", formatCurrency(row.price)),
+      makeMetric("현재 배당률", formatPercent(row.live_yield)),
+      makeMetric("5년 평균", formatPercent(row.avg_yield_5y)),
+      makeMetric("5년 차이", formatPercent(row.live_yield_diff_5y), row.live_yield_diff_5y > 0 ? "positive-text" : ""),
+      makeMetric("10년 평균", formatPercent(row.avg_yield_10y)),
+      makeMetric("10년 차이", formatPercent(row.live_yield_diff), row.live_yield_diff > 0 ? "positive-text" : "")
+    );
+
+    const meta = document.createElement("div");
+    meta.className = "mobile-meta";
+    meta.textContent = `${row.level || "-"} · ${row.sector || "-"} · 지급월 ${row.pay_months || "-"}`;
+
+    card.append(header, metrics, meta);
+    els.mobileList.append(card);
+  });
+}
+
 function renderTable() {
   const rows = getVisibleRows();
   els.tableBody.replaceChildren();
@@ -213,6 +272,7 @@ function renderTable() {
   els.visibleCount.textContent = rows.length.toLocaleString("ko-KR");
   els.positiveCount.textContent = rows.filter((row) => row.live_yield_diff > 0).length.toLocaleString("ko-KR");
   els.failedCount.textContent = rows.filter((row) => row.status === "failed").length.toLocaleString("ko-KR");
+  renderMobileCards(rows);
   els.emptyState.hidden = rows.length !== 0;
   renderSortButtons();
 }
@@ -321,6 +381,7 @@ async function init() {
     renderTable();
   } catch (error) {
     els.tableBody.replaceChildren();
+    els.mobileList.replaceChildren();
     els.emptyState.hidden = false;
     els.emptyState.textContent = error.message;
   }

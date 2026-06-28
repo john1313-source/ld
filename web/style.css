@@ -157,6 +157,10 @@ th button:hover {
   overflow: auto;
 }
 
+.mobile-list {
+  display: none;
+}
+
 table {
   width: 100%;
   min-width: 1640px;
@@ -262,6 +266,10 @@ tbody tr.failed {
   color: var(--muted);
 }
 
+.positive-text {
+  color: var(--good);
+}
+
 .status-failed {
   background: var(--bad-bg);
   color: var(--bad);
@@ -356,6 +364,87 @@ dialog::backdrop {
 
   .summary {
     grid-template-columns: 1fr;
+  }
+
+  .table-section {
+    border: 0;
+    background: transparent;
+    overflow: visible;
+  }
+
+  .table-wrap {
+    display: none;
+  }
+
+  .mobile-list {
+    display: grid;
+    gap: 10px;
+  }
+
+  .mobile-card {
+    display: grid;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+    cursor: pointer;
+  }
+
+  .mobile-card.failed {
+    background: var(--bad-bg);
+  }
+
+  .mobile-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .mobile-card h3 {
+    margin: 0 0 4px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .mobile-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 5px;
+    min-width: 90px;
+  }
+
+  .mobile-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .mobile-metric {
+    display: grid;
+    gap: 3px;
+    padding: 8px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: #f8fafc;
+  }
+
+  .mobile-metric span {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .mobile-metric strong {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .mobile-meta {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.4;
   }
 
   .detail-grid {
