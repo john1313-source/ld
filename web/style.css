@@ -154,7 +154,8 @@ th button:hover {
 }
 
 .table-wrap {
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .mobile-list {
@@ -163,8 +164,9 @@ th button:hover {
 
 table {
   width: 100%;
-  min-width: 1740px;
+  min-width: 0;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 thead {
@@ -176,16 +178,22 @@ thead {
 
 th,
 td {
-  padding: 11px 12px;
+  padding: 10px 8px;
   border-bottom: 1px solid var(--line);
   text-align: left;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: middle;
 }
 
 th {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
+}
+
+td {
+  font-size: 13px;
 }
 
 th button {
@@ -251,10 +259,36 @@ tbody tr.failed {
 .diff {
   display: inline-flex;
   justify-content: flex-end;
-  min-width: 76px;
+  min-width: 0;
   padding: 4px 8px;
   border-radius: 6px;
   font-weight: 800;
+}
+
+@media (max-width: 1400px) and (min-width: 761px) {
+  main {
+    padding-inline: 16px;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4),
+  th:nth-child(5),
+  td:nth-child(5),
+  th:nth-child(14),
+  td:nth-child(14),
+  th:nth-child(15),
+  td:nth-child(15),
+  th:nth-child(16),
+  td:nth-child(16),
+  th:nth-child(17),
+  td:nth-child(17) {
+    display: none;
+  }
+
+  th,
+  td {
+    padding-inline: 7px;
+  }
 }
 
 .diff.positive {
