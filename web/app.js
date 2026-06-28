@@ -4,6 +4,7 @@ const state = {
   sortKey: "live_yield_diff",
   sortDir: "desc",
   filters: {
+    category: "통합",
     level: "",
     sector: "",
     search: "",
@@ -13,10 +14,13 @@ const state = {
 const columns = {
   name_ko: "text",
   ticker: "text",
+  asset_category: "text",
   level: "text",
   sector: "text",
   price: "number",
   live_yield: "number",
+  avg_yield_5y: "number",
+  live_yield_diff_5y: "number",
   avg_yield_10y: "number",
   live_yield_diff: "number",
   increase_years: "number",
@@ -28,6 +32,7 @@ const columns = {
 const els = {
   lastUpdated: document.querySelector("#lastUpdated"),
   statusCount: document.querySelector("#statusCount"),
+  categoryFilter: document.querySelector("#categoryFilter"),
   levelFilter: document.querySelector("#levelFilter"),
   sectorFilter: document.querySelector("#sectorFilter"),
   searchInput: document.querySelector("#searchInput"),
@@ -83,6 +88,7 @@ function fillSelect(select, values) {
 
 function updateQuery() {
   const params = new URLSearchParams();
+  if (state.filters.category !== "통합") params.set("category", state.filters.category);
   if (state.filters.level) params.set("level", state.filters.level);
   if (state.filters.sector) params.set("sector", state.filters.sector);
   if (state.filters.search) params.set("q", state.filters.search);
@@ -94,6 +100,7 @@ function updateQuery() {
 
 function hydrateFromQuery() {
   const params = new URLSearchParams(location.search);
+  state.filters.category = params.get("category") || "통합";
   state.filters.level = params.get("level") || "";
   state.filters.sector = params.get("sector") || "";
   state.filters.search = params.get("q") || "";
@@ -120,6 +127,7 @@ function compareRows(a, b) {
 function getVisibleRows() {
   const search = state.filters.search.trim().toLowerCase();
   return state.rows
+    .filter((row) => state.filters.category === "통합" || (row.asset_category || "주식") === state.filters.category)
     .filter((row) => !state.filters.level || row.level === state.filters.level)
     .filter((row) => !state.filters.sector || row.sector === state.filters.sector)
     .filter((row) => {
@@ -171,14 +179,20 @@ function renderTable() {
     const diff = document.createElement("span");
     diff.className = `diff ${row.live_yield_diff > 0 ? "positive" : "negative"}`;
     diff.textContent = formatPercent(row.live_yield_diff);
+    const diff5y = document.createElement("span");
+    diff5y.className = `diff ${row.live_yield_diff_5y > 0 ? "positive" : "negative"}`;
+    diff5y.textContent = formatPercent(row.live_yield_diff_5y);
 
     tr.append(
       makeCell(row.name_ko || "-"),
       makeCell(row.ticker || "-", "ticker"),
+      makeCell(makePill(row.asset_category || "주식")),
       makeCell(makePill(row.level)),
       makeCell(row.sector || "-"),
       makeCell(formatCurrency(row.price), "numeric"),
       makeCell(formatPercent(row.live_yield), "numeric"),
+      makeCell(formatPercent(row.avg_yield_5y), "numeric"),
+      makeCell(diff5y, "numeric emphasis"),
       makeCell(formatPercent(row.avg_yield_10y), "numeric"),
       makeCell(diff, "numeric emphasis"),
       makeCell(formatNumber(row.increase_years), "numeric"),
@@ -201,8 +215,11 @@ function openDetail(row) {
     <h2 class="detail-title">${row.name_ko || row.ticker} <span class="ticker">${row.ticker}</span></h2>
     <div class="detail-grid">
       <div><span>상태</span>${row.status}</div>
+      <div><span>카테고리</span>${row.asset_category || "주식"}</div>
       <div><span>현재가</span>${formatCurrency(row.price)}</div>
       <div><span>현재 배당률</span>${formatPercent(row.live_yield)}</div>
+      <div><span>5년 평균 배당률</span>${formatPercent(row.avg_yield_5y)}</div>
+      <div><span>5년 평균 대비 차이</span>${formatPercent(row.live_yield_diff_5y)}</div>
       <div><span>10년 평균 배당률</span>${formatPercent(row.avg_yield_10y)}</div>
       <div><span>평균 대비 차이</span>${formatPercent(row.live_yield_diff)}</div>
       <div><span>연 배당금</span>${formatCurrency(row.live_dividend)}</div>
@@ -214,6 +231,11 @@ function openDetail(row) {
 }
 
 function bindEvents() {
+  els.categoryFilter.addEventListener("change", () => {
+    state.filters.category = els.categoryFilter.value;
+    updateQuery();
+    renderTable();
+  });
   els.levelFilter.addEventListener("change", () => {
     state.filters.level = els.levelFilter.value;
     updateQuery();
@@ -230,9 +252,10 @@ function bindEvents() {
     renderTable();
   });
   els.resetButton.addEventListener("click", () => {
-    state.filters = { level: "", sector: "", search: "" };
+    state.filters = { category: "통합", level: "", sector: "", search: "" };
     state.sortKey = "live_yield_diff";
     state.sortDir = "desc";
+    els.categoryFilter.value = "통합";
     els.levelFilter.value = "";
     els.sectorFilter.value = "";
     els.searchInput.value = "";
@@ -264,6 +287,7 @@ async function init() {
     state.rows = state.data.companies || [];
     fillSelect(els.levelFilter, uniqueValues(state.rows, "level"));
     fillSelect(els.sectorFilter, uniqueValues(state.rows, "sector"));
+    els.categoryFilter.value = state.filters.category;
     els.levelFilter.value = state.filters.level;
     els.sectorFilter.value = state.filters.sector;
     els.searchInput.value = state.filters.search;

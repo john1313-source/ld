@@ -21,6 +21,14 @@
     <main>
       <section class="toolbar" aria-label="필터와 검색">
         <label>
+          <span>카테고리</span>
+          <select id="categoryFilter">
+            <option value="통합">통합</option>
+            <option value="주식">주식</option>
+            <option value="ETF">ETF</option>
+          </select>
+        </label>
+        <label>
           <span>레벨</span>
           <select id="levelFilter">
             <option value="">전체</option>
@@ -61,12 +69,15 @@
               <tr>
                 <th><button data-sort="name_ko" type="button">기업명</button></th>
                 <th><button data-sort="ticker" type="button">티커</button></th>
+                <th><button data-sort="asset_category" type="button">카테고리</button></th>
                 <th><button data-sort="level" type="button">레벨</button></th>
                 <th><button data-sort="sector" type="button">섹터</button></th>
                 <th class="numeric"><button data-sort="price" type="button">현재가</button></th>
                 <th class="numeric"><button data-sort="live_yield" type="button">현재 배당률</button></th>
+                <th class="numeric"><button data-sort="avg_yield_5y" type="button">5년 평균</button></th>
+                <th class="numeric emphasis"><button data-sort="live_yield_diff_5y" type="button">5년 차이</button></th>
                 <th class="numeric"><button data-sort="avg_yield_10y" type="button">10년 평균</button></th>
-                <th class="numeric emphasis"><button data-sort="live_yield_diff" type="button">배당률 차이</button></th>
+                <th class="numeric emphasis"><button data-sort="live_yield_diff" type="button">10년 차이</button></th>
                 <th class="numeric"><button data-sort="increase_years" type="button">연속증가</button></th>
                 <th class="numeric"><button data-sort="growth_5y" type="button">5년 성장률</button></th>
                 <th class="numeric"><button data-sort="payout_ratio" type="button">배당성향</button></th>

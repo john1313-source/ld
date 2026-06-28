@@ -76,7 +76,7 @@ main {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(140px, 180px) minmax(140px, 220px) minmax(220px, 1fr) auto;
+  grid-template-columns: minmax(120px, 150px) minmax(140px, 180px) minmax(140px, 220px) minmax(220px, 1fr) auto;
   gap: 12px;
   align-items: end;
   margin-bottom: 14px;
@@ -159,7 +159,7 @@ th button:hover {
 
 table {
   width: 100%;
-  min-width: 1260px;
+  min-width: 1540px;
   border-collapse: collapse;
 }
 

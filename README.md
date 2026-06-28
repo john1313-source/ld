@@ -33,6 +33,9 @@ python scripts/update_data.py
 ## 데이터 해석
 
 - `live_yield`: 현재 주가 기준 연 배당률입니다. 화면에서는 퍼센트로 표시합니다.
+- `asset_category`: 종목 구분입니다. 현재 화면 필터는 `통합`, `주식`, `ETF`를 지원합니다.
+- `avg_yield_5y`: yfinance 배당 시계열과 5년 가격 데이터를 바탕으로 계산한 최근 5년 평균 배당률입니다.
+- `live_yield_diff_5y`: `(live_yield - avg_yield_5y) / avg_yield_5y`입니다.
 - `live_yield_diff`: `(live_yield - avg_yield_10y) / avg_yield_10y`입니다.
 - `live_yield_diff`가 양수이면 현재 배당률이 10년 평균보다 높고, 음수이면 10년 평균보다 낮다는 뜻입니다.
 

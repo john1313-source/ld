@@ -48,10 +48,44 @@ def read_info(ticker: yf.Ticker) -> dict[str, Any]:
         return {}
 
 
+def classify_asset(company: dict[str, Any], info: dict[str, Any]) -> str:
+    level = str(company.get("level") or "")
+    quote_type = str(info.get("quoteType") or "").upper()
+    if "ETF" in level.upper() or quote_type in {"ETF", "MUTUALFUND"} or info.get("fundFamily"):
+        return "ETF"
+    return "주식"
+
+
+def calculate_avg_yield_5y(ticker: yf.Ticker) -> float | None:
+    try:
+        dividends = ticker.dividends
+        history = ticker.history(period="5y", auto_adjust=False)
+    except Exception:
+        return None
+
+    if dividends is None or history is None or dividends.empty or history.empty or "Close" not in history:
+        return None
+
+    annual_dividends = dividends.groupby(dividends.index.year).sum()
+    annual_prices = history["Close"].groupby(history.index.year).mean()
+    annual_yields = []
+    for year, annual_dividend in annual_dividends.tail(5).items():
+        annual_price = clean_number(annual_prices.get(year))
+        annual_dividend = clean_number(annual_dividend)
+        if annual_price and annual_dividend is not None:
+            annual_yields.append(annual_dividend / annual_price)
+
+    if not annual_yields:
+        return None
+    return sum(annual_yields) / len(annual_yields)
+
+
 def calculate_fields(
     company: dict[str, Any],
     price: float | None,
     live_dividend: float | None,
+    asset_category: str,
+    avg_yield_5y: float | None,
     fetched_at: str,
     status: str,
     error: str | None = None,
@@ -63,12 +97,20 @@ def calculate_fields(
         if live_yield is not None and avg_yield_10y
         else None
     )
+    live_yield_diff_5y = (
+        (live_yield - avg_yield_5y) / avg_yield_5y
+        if live_yield is not None and avg_yield_5y
+        else None
+    )
 
     output = {
         **company,
+        "asset_category": asset_category,
         "price": price,
         "live_dividend": live_dividend,
         "live_yield": live_yield,
+        "avg_yield_5y": avg_yield_5y,
+        "live_yield_diff_5y": live_yield_diff_5y,
         "live_yield_diff": live_yield_diff,
         "status": status,
         "fetched_at": fetched_at,
@@ -82,6 +124,7 @@ def fetch_company_once(company: dict[str, Any], fetched_at: str) -> dict[str, An
     ticker_symbol = company["ticker"]
     ticker = yf.Ticker(ticker_symbol)
     info = read_info(ticker)
+    asset_category = classify_asset(company, info)
 
     price = read_fast_price(ticker)
     if price is None:
@@ -95,7 +138,9 @@ def fetch_company_once(company: dict[str, Any], fetched_at: str) -> dict[str, An
     if status == "failed":
         raise ValueError(f"{ticker_symbol}: missing price or dividend")
 
-    return calculate_fields(company, price, live_dividend, fetched_at, status)
+    avg_yield_5y = calculate_avg_yield_5y(ticker)
+
+    return calculate_fields(company, price, live_dividend, asset_category, avg_yield_5y, fetched_at, status)
 
 
 def enrich_company(company: dict[str, Any], fetched_at: str) -> dict[str, Any]:
@@ -112,6 +157,8 @@ def enrich_company(company: dict[str, Any], fetched_at: str) -> dict[str, Any]:
         company,
         price=None,
         live_dividend=clean_number(company.get("dividend_annual")),
+        asset_category="ETF" if "ETF" in str(company.get("level") or "").upper() else "주식",
+        avg_yield_5y=None,
         fetched_at=fetched_at,
         status="failed",
         error=str(last_error) if last_error else "unknown error",
