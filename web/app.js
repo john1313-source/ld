@@ -5,6 +5,7 @@ const state = {
   sortDir: "desc",
   filters: {
     category: "통합",
+    etfType: "",
     level: "",
     sector: "",
     search: "",
@@ -15,6 +16,7 @@ const columns = {
   name_ko: "text",
   ticker: "text",
   asset_category: "text",
+  etf_type: "text",
   level: "text",
   sector: "text",
   price: "number",
@@ -33,6 +35,7 @@ const els = {
   lastUpdated: document.querySelector("#lastUpdated"),
   statusCount: document.querySelector("#statusCount"),
   categoryFilter: document.querySelector("#categoryFilter"),
+  etfTypeFilter: document.querySelector("#etfTypeFilter"),
   levelFilter: document.querySelector("#levelFilter"),
   sectorFilter: document.querySelector("#sectorFilter"),
   searchInput: document.querySelector("#searchInput"),
@@ -89,6 +92,7 @@ function fillSelect(select, values) {
 function updateQuery() {
   const params = new URLSearchParams();
   if (state.filters.category !== "통합") params.set("category", state.filters.category);
+  if (state.filters.etfType) params.set("etfType", state.filters.etfType);
   if (state.filters.level) params.set("level", state.filters.level);
   if (state.filters.sector) params.set("sector", state.filters.sector);
   if (state.filters.search) params.set("q", state.filters.search);
@@ -101,6 +105,7 @@ function updateQuery() {
 function hydrateFromQuery() {
   const params = new URLSearchParams(location.search);
   state.filters.category = params.get("category") || "통합";
+  state.filters.etfType = params.get("etfType") || "";
   state.filters.level = params.get("level") || "";
   state.filters.sector = params.get("sector") || "";
   state.filters.search = params.get("q") || "";
@@ -128,6 +133,7 @@ function getVisibleRows() {
   const search = state.filters.search.trim().toLowerCase();
   return state.rows
     .filter((row) => state.filters.category === "통합" || (row.asset_category || "주식") === state.filters.category)
+    .filter((row) => !state.filters.etfType || row.etf_type === state.filters.etfType)
     .filter((row) => !state.filters.level || row.level === state.filters.level)
     .filter((row) => !state.filters.sector || row.sector === state.filters.sector)
     .filter((row) => {
@@ -187,6 +193,7 @@ function renderTable() {
       makeCell(row.name_ko || "-"),
       makeCell(row.ticker || "-", "ticker"),
       makeCell(makePill(row.asset_category || "주식")),
+      makeCell(row.etf_type ? makePill(row.etf_type) : "-"),
       makeCell(makePill(row.level)),
       makeCell(row.sector || "-"),
       makeCell(formatCurrency(row.price), "numeric"),
@@ -216,6 +223,7 @@ function openDetail(row) {
     <div class="detail-grid">
       <div><span>상태</span>${row.status}</div>
       <div><span>카테고리</span>${row.asset_category || "주식"}</div>
+      <div><span>ETF 유형</span>${row.etf_type || "-"}</div>
       <div><span>현재가</span>${formatCurrency(row.price)}</div>
       <div><span>현재 배당률</span>${formatPercent(row.live_yield)}</div>
       <div><span>5년 평균 배당률</span>${formatPercent(row.avg_yield_5y)}</div>
@@ -233,6 +241,19 @@ function openDetail(row) {
 function bindEvents() {
   els.categoryFilter.addEventListener("change", () => {
     state.filters.category = els.categoryFilter.value;
+    if (state.filters.category !== "ETF") {
+      state.filters.etfType = "";
+      els.etfTypeFilter.value = "";
+    }
+    updateQuery();
+    renderTable();
+  });
+  els.etfTypeFilter.addEventListener("change", () => {
+    state.filters.etfType = els.etfTypeFilter.value;
+    if (state.filters.etfType) {
+      state.filters.category = "ETF";
+      els.categoryFilter.value = "ETF";
+    }
     updateQuery();
     renderTable();
   });
@@ -252,10 +273,11 @@ function bindEvents() {
     renderTable();
   });
   els.resetButton.addEventListener("click", () => {
-    state.filters = { category: "통합", level: "", sector: "", search: "" };
+    state.filters = { category: "통합", etfType: "", level: "", sector: "", search: "" };
     state.sortKey = "live_yield_diff";
     state.sortDir = "desc";
     els.categoryFilter.value = "통합";
+    els.etfTypeFilter.value = "";
     els.levelFilter.value = "";
     els.sectorFilter.value = "";
     els.searchInput.value = "";
@@ -285,9 +307,11 @@ async function init() {
     if (!response.ok) throw new Error(`데이터를 불러오지 못했습니다. (${response.status})`);
     state.data = await response.json();
     state.rows = state.data.companies || [];
+    fillSelect(els.etfTypeFilter, uniqueValues(state.rows, "etf_type"));
     fillSelect(els.levelFilter, uniqueValues(state.rows, "level"));
     fillSelect(els.sectorFilter, uniqueValues(state.rows, "sector"));
     els.categoryFilter.value = state.filters.category;
+    els.etfTypeFilter.value = state.filters.etfType;
     els.levelFilter.value = state.filters.level;
     els.sectorFilter.value = state.filters.sector;
     els.searchInput.value = state.filters.search;

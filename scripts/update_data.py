@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 import time
+from datetime import timedelta
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -80,6 +81,21 @@ def calculate_avg_yield_5y(ticker: yf.Ticker) -> float | None:
     return sum(annual_yields) / len(annual_yields)
 
 
+def calculate_trailing_dividend(ticker: yf.Ticker) -> float | None:
+    try:
+        dividends = ticker.dividends
+    except Exception:
+        return None
+
+    if dividends is None or dividends.empty:
+        return None
+
+    cutoff = dividends.index.max() - timedelta(days=365)
+    trailing = dividends[dividends.index >= cutoff]
+    total = clean_number(trailing.sum())
+    return total if total and total > 0 else None
+
+
 def calculate_fields(
     company: dict[str, Any],
     price: float | None,
@@ -133,6 +149,8 @@ def fetch_company_once(company: dict[str, Any], fetched_at: str) -> dict[str, An
     live_dividend = clean_number(info.get("dividendRate"))
     if live_dividend is None:
         live_dividend = clean_number(company.get("dividend_annual"))
+    if live_dividend is None:
+        live_dividend = calculate_trailing_dividend(ticker)
 
     status = "ok" if price and live_dividend is not None else "failed"
     if status == "failed":

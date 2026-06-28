@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-28T05:29:17Z",
-  "ok_count": 114,
+  "generated_at": "2026-06-28T06:25:24Z",
+  "ok_count": 144,
   "failed_count": 2,
   "source": "수페의 배당책 리스트",
   "as_of": "2026-06-26",
-  "count": 116,
+  "count": 146,
   "companies": [
     {
       "ticker": "AWR",
@@ -28,7 +28,7 @@
       "live_yield_diff_5y": 0.2364758842171161,
       "live_yield_diff": 0.38215204320104235,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "DOV",
@@ -52,7 +52,7 @@
       "live_yield_diff_5y": -0.18002129496438005,
       "live_yield_diff": -0.4331792621329838,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "GPC",
@@ -76,7 +76,7 @@
       "live_yield_diff_5y": 0.42344968237161046,
       "live_yield_diff": 0.3068717908902809,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "NWN",
@@ -100,7 +100,7 @@
       "live_yield_diff_5y": -0.03173268890190757,
       "live_yield_diff": 0.02612227650312499,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "PG",
@@ -124,7 +124,7 @@
       "live_yield_diff_5y": 0.24879402805353443,
       "live_yield_diff": 0.07712004737511863,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "PH",
@@ -148,7 +148,7 @@
       "live_yield_diff_5y": -0.29406436061479085,
       "live_yield_diff": -0.47940632037259817,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "EMR",
@@ -172,7 +172,7 @@
       "live_yield_diff_5y": -0.1428224460497543,
       "live_yield_diff": -0.4188031242075034,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CINF",
@@ -196,7 +196,7 @@
       "live_yield_diff_5y": -0.0957599176606198,
       "live_yield_diff": -0.2553444557544175,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CL",
@@ -220,7 +220,7 @@
       "live_yield_diff_5y": 0.08369594307570642,
       "live_yield_diff": -0.00277355625156083,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "JNJ",
@@ -244,7 +244,7 @@
       "live_yield_diff_5y": -0.17936822836152563,
       "live_yield_diff": -0.2259039682847758,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "KO",
@@ -268,7 +268,7 @@
       "live_yield_diff_5y": -0.03408030515660282,
       "live_yield_diff": -0.16428201756986724,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "LOW",
@@ -292,7 +292,7 @@
       "live_yield_diff_5y": 0.2957464090184799,
       "live_yield_diff": 0.3628823937237933,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "LANC",
@@ -316,7 +316,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": 0.026823468566826887,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "NDSN",
@@ -340,7 +340,7 @@
       "live_yield_diff_5y": -0.0046393466314026376,
       "live_yield_diff": 0.09567182127438735,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "FMCB",
@@ -364,7 +364,7 @@
       "live_yield_diff_5y": -0.03161938634501552,
       "live_yield_diff": -0.16861332814223604,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ITW",
@@ -388,7 +388,7 @@
       "live_yield_diff_5y": 0.19578944355160038,
       "live_yield_diff": 0.10601756928699806,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "HRL",
@@ -412,7 +412,7 @@
       "live_yield_diff_5y": 0.4479813403702826,
       "live_yield_diff": 1.0300960702171422,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "TR",
@@ -436,7 +436,7 @@
       "live_yield_diff_5y": 0.033346785540778925,
       "live_yield_diff": -0.14277878897569787,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ABM",
@@ -460,7 +460,7 @@
       "live_yield_diff_5y": 0.3860059495185925,
       "live_yield_diff": 0.3377727039446018,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CWT",
@@ -484,7 +484,7 @@
       "live_yield_diff_5y": 0.28546293041747556,
       "live_yield_diff": 0.3919375822497152,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "FRT",
@@ -508,7 +508,7 @@
       "live_yield_diff_5y": 0.0043287367805625,
       "live_yield_diff": 0.02486874284324423,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SCL",
@@ -532,7 +532,7 @@
       "live_yield_diff_5y": 0.5440508842623424,
       "live_yield_diff": 1.205377640158606,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SJW",
@@ -556,7 +556,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-06-28T05:25:42Z",
+      "fetched_at": "2026-06-28T06:21:02Z",
       "error": "SJW: missing price or dividend"
     },
     {
@@ -581,7 +581,7 @@
       "live_yield_diff_5y": 0.08637126536604503,
       "live_yield_diff": 0.5102427573540851,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CBSH",
@@ -605,7 +605,7 @@
       "live_yield_diff_5y": 0.1551789111778215,
       "live_yield_diff": 0.1047263332449767,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "FUL",
@@ -629,7 +629,7 @@
       "live_yield_diff_5y": 0.353659649847196,
       "live_yield_diff": 0.32654718717851544,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "TGT",
@@ -653,7 +653,7 @@
       "live_yield_diff_5y": 0.13528929348765267,
       "live_yield_diff": 0.19532684400678182,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MO",
@@ -677,7 +677,7 @@
       "live_yield_diff_5y": -0.17854982933335034,
       "live_yield_diff": -0.10706511624665152,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MSA",
@@ -701,7 +701,7 @@
       "live_yield_diff_5y": 0.1214827901240295,
       "live_yield_diff": -0.17448898958419054,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SYY",
@@ -725,7 +725,7 @@
       "live_yield_diff_5y": 0.1211282370399865,
       "live_yield_diff": 0.1031408667290395,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "UVV",
@@ -749,7 +749,7 @@
       "live_yield_diff_5y": 0.14128901565453036,
       "live_yield_diff": 0.24138190916624122,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BKH",
@@ -773,7 +773,7 @@
       "live_yield_diff_5y": -0.0030798285354809007,
       "live_yield_diff": 0.08053316281957949,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "GWW",
@@ -797,7 +797,7 @@
       "live_yield_diff_5y": -0.22795633404048074,
       "live_yield_diff": -0.5612841937347172,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "NFG",
@@ -821,7 +821,7 @@
       "live_yield_diff_5y": 0.059630047967424604,
       "live_yield_diff": -0.165242470220591,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "TNC",
@@ -845,7 +845,7 @@
       "live_yield_diff_5y": 0.06564567926612018,
       "live_yield_diff": 0.03767729260116886,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ABBV",
@@ -869,7 +869,7 @@
       "live_yield_diff_5y": -0.1521202968306495,
       "live_yield_diff": -0.27065442343216395,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ABT",
@@ -893,7 +893,7 @@
       "live_yield_diff_5y": 0.5445549586491865,
       "live_yield_diff": 0.5008032432967136,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BDX",
@@ -917,7 +917,7 @@
       "live_yield_diff_5y": 0.6925472549756806,
       "live_yield_diff": 0.9144911890206855,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CDUAF",
@@ -941,7 +941,7 @@
       "live_yield_diff_5y": -0.11933334375646822,
       "live_yield_diff": -0.24715205547300642,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "KMB",
@@ -965,7 +965,7 @@
       "live_yield_diff_5y": 0.34807280200075313,
       "live_yield_diff": 0.41430717355474717,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "PEP",
@@ -989,7 +989,7 @@
       "live_yield_diff_5y": 0.4538659164638588,
       "live_yield_diff": 0.47793876214576014,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "PPG",
@@ -1013,7 +1013,7 @@
       "live_yield_diff_5y": 0.20132313388535836,
       "live_yield_diff": 0.40002834033361856,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "GRC",
@@ -1037,7 +1037,7 @@
       "live_yield_diff_5y": -0.5277818819886282,
       "live_yield_diff": -0.6367147541610501,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MSEX",
@@ -1061,7 +1061,7 @@
       "live_yield_diff_5y": 0.4066187096827551,
       "live_yield_diff": 0.38500049520241075,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "NUE",
@@ -1085,7 +1085,7 @@
       "live_yield_diff_5y": -0.23695801401287722,
       "live_yield_diff": -0.49448610464090575,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SPGI",
@@ -1109,7 +1109,7 @@
       "live_yield_diff_5y": 0.23718873311555497,
       "live_yield_diff": -0.017967359161405225,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "WMT",
@@ -1133,7 +1133,7 @@
       "live_yield_diff_5y": -0.24182041252295577,
       "live_yield_diff": -0.5517364398988678,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ED",
@@ -1157,7 +1157,7 @@
       "live_yield_diff_5y": 0.006181475086295805,
       "live_yield_diff": -0.14708067145696085,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ADM",
@@ -1181,7 +1181,7 @@
       "live_yield_diff_5y": 0.05579914323979748,
       "live_yield_diff": -0.045565188677888856,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ADP",
@@ -1205,7 +1205,7 @@
       "live_yield_diff_5y": 0.5161876233837946,
       "live_yield_diff": 0.50959059728637,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MCD",
@@ -1229,7 +1229,7 @@
       "live_yield_diff_5y": 0.32015415416314086,
       "live_yield_diff": 0.16077736430752046,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MDT",
@@ -1253,7 +1253,7 @@
       "live_yield_diff_5y": 0.25032711686780623,
       "live_yield_diff": 0.4174705220814292,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "PNR",
@@ -1277,7 +1277,7 @@
       "live_yield_diff_5y": 0.1962457195135337,
       "live_yield_diff": -0.07896980046486184,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CLX",
@@ -1301,7 +1301,7 @@
       "live_yield_diff_5y": 0.6085391958571709,
       "live_yield_diff": 0.9081025318307208,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SHW",
@@ -1325,7 +1325,7 @@
       "live_yield_diff_5y": 0.11551736057386053,
       "live_yield_diff": 0.0653416785149628,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BEN",
@@ -1349,7 +1349,7 @@
       "live_yield_diff_5y": -0.07180101010005958,
       "live_yield_diff": -0.12102907489942442,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "AFL",
@@ -1373,7 +1373,7 @@
       "live_yield_diff_5y": -0.010986973246363234,
       "live_yield_diff": -0.08932967982378888,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "APD",
@@ -1397,7 +1397,7 @@
       "live_yield_diff_5y": 0.21463136718948567,
       "live_yield_diff": 0.1501700102716162,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CTAS",
@@ -1421,7 +1421,7 @@
       "live_yield_diff_5y": 0.252747399139504,
       "live_yield_diff": 0.06522935506351464,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "XOM",
@@ -1445,7 +1445,7 @@
       "live_yield_diff_5y": -0.03499297500408382,
       "live_yield_diff": -0.32826559708734904,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "AMCR",
@@ -1469,7 +1469,7 @@
       "live_yield_diff_5y": 0.5241623752065533,
       "live_yield_diff": 0.4779483511286736,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ATO",
@@ -1493,7 +1493,7 @@
       "live_yield_diff_5y": 0.02589317887359555,
       "live_yield_diff": -0.020799289753403602,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BF.B",
@@ -1517,7 +1517,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-06-28T05:25:42Z",
+      "fetched_at": "2026-06-28T06:21:02Z",
       "error": "BF.B: missing price or dividend"
     },
     {
@@ -1542,7 +1542,7 @@
       "live_yield_diff_5y": 0.16565602784644154,
       "live_yield_diff": 0.32092380284370736,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CAH",
@@ -1566,7 +1566,7 @@
       "live_yield_diff_5y": -0.5020212959007525,
       "live_yield_diff": -0.700821468967015,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CVX",
@@ -1590,7 +1590,7 @@
       "live_yield_diff_5y": 0.15244826724292632,
       "live_yield_diff": -0.015077543881999235,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MKC",
@@ -1614,7 +1614,7 @@
       "live_yield_diff_5y": 1.00242062313223,
       "live_yield_diff": 1.1212739229638342,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "GD",
@@ -1638,7 +1638,7 @@
       "live_yield_diff_5y": -0.010246717731775701,
       "live_yield_diff": -0.13185701298420244,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CB",
@@ -1662,7 +1662,7 @@
       "live_yield_diff_5y": 0.010646282146753611,
       "live_yield_diff": -0.35022345133615035,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ECL",
@@ -1686,7 +1686,7 @@
       "live_yield_diff_5y": 0.016310736728527696,
       "live_yield_diff": -0.050334216382029943,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "LIN",
@@ -1710,7 +1710,7 @@
       "live_yield_diff_5y": 0.002691761263633625,
       "live_yield_diff": -0.32214127222472577,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ROP",
@@ -1734,7 +1734,7 @@
       "live_yield_diff_5y": 0.8908447986492568,
       "live_yield_diff": 0.9705792659916976,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "WST",
@@ -1758,7 +1758,7 @@
       "live_yield_diff_5y": 0.05161377656474377,
       "live_yield_diff": -0.37607105934543,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "AOS",
@@ -1782,7 +1782,7 @@
       "live_yield_diff_5y": 0.38267896696534065,
       "live_yield_diff": 0.5358563761350479,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BRO",
@@ -1806,7 +1806,7 @@
       "live_yield_diff_5y": 0.6426911203749299,
       "live_yield_diff": 0.1221127824266525,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CAT",
@@ -1830,7 +1830,7 @@
       "live_yield_diff_5y": -0.5691730077854986,
       "live_yield_diff": -0.7298951391856054,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ESS",
@@ -1854,7 +1854,7 @@
       "live_yield_diff_5y": 0.12028032797448401,
       "live_yield_diff": 0.13853344283258384,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "IBM",
@@ -1878,7 +1878,7 @@
       "live_yield_diff_5y": -0.2657715412054187,
       "live_yield_diff": -0.40089566467689725,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ALB",
@@ -1902,7 +1902,7 @@
       "live_yield_diff_5y": 0.12380388955578335,
       "live_yield_diff": -0.1129810095933997,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "EXPD",
@@ -1926,7 +1926,7 @@
       "live_yield_diff_5y": -0.08403190078954342,
       "live_yield_diff": -0.21685976967546858,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CHD",
@@ -1950,7 +1950,7 @@
       "live_yield_diff_5y": 0.15528676299760757,
       "live_yield_diff": -0.04471170456284809,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "NEE",
@@ -1974,7 +1974,7 @@
       "live_yield_diff_5y": 0.15875438479433795,
       "live_yield_diff": 0.15043093045921374,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "O",
@@ -1998,7 +1998,7 @@
       "live_yield_diff_5y": 0.11850935125922925,
       "live_yield_diff": 0.16123653001250737,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SJM",
@@ -2022,7 +2022,7 @@
       "live_yield_diff_5y": 0.21367458114621565,
       "live_yield_diff": 0.3034983951041485,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "CHRW",
@@ -2046,7 +2046,7 @@
       "live_yield_diff_5y": -0.32491563954566266,
       "live_yield_diff": -0.4025380245978275,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "TTC",
@@ -2070,7 +2070,7 @@
       "live_yield_diff_5y": 0.10779126592130084,
       "live_yield_diff": 0.2557060940145646,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "COST",
@@ -2094,7 +2094,7 @@
       "live_yield_diff_5y": -0.44680990156529315,
       "live_yield_diff": -0.7355197405076043,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MSFT",
@@ -2118,7 +2118,7 @@
       "live_yield_diff_5y": 0.3048603764819747,
       "live_yield_diff": -0.2823898491901749,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "WSM",
@@ -2142,7 +2142,7 @@
       "live_yield_diff_5y": -0.24222508552369143,
       "live_yield_diff": -0.4505161562131978,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "KR",
@@ -2166,7 +2166,7 @@
       "live_yield_diff_5y": 0.2974206591861172,
       "live_yield_diff": 0.35489970911839164,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MCK",
@@ -2190,7 +2190,7 @@
       "live_yield_diff_5y": -0.06540532405299643,
       "live_yield_diff": -0.4485303058329281,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BLK",
@@ -2214,7 +2214,7 @@
       "live_yield_diff_5y": 0.06208560404776863,
       "live_yield_diff": 0.005860907547770924,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "HD",
@@ -2238,7 +2238,7 @@
       "live_yield_diff_5y": 0.17381984454181196,
       "live_yield_diff": 0.2374056987816408,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MCO",
@@ -2262,7 +2262,7 @@
       "live_yield_diff_5y": 0.17767258540813383,
       "live_yield_diff": -0.10592266556570737,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MKTX",
@@ -2286,7 +2286,7 @@
       "live_yield_diff_5y": 1.4077768579542491,
       "live_yield_diff": 2.5680149127224663,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "UNH",
@@ -2310,7 +2310,7 @@
       "live_yield_diff_5y": 0.37359206700826303,
       "live_yield_diff": 0.5636493309185361,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "AVGO",
@@ -2334,7 +2334,7 @@
       "live_yield_diff_5y": -0.5662877232252607,
       "live_yield_diff": -0.6768195285902726,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "BBY",
@@ -2358,7 +2358,7 @@
       "live_yield_diff_5y": 0.14522019290670327,
       "live_yield_diff": 0.43313487099260306,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "HPQ",
@@ -2382,7 +2382,7 @@
       "live_yield_diff_5y": 0.5209656304218724,
       "live_yield_diff": 0.6989813531362901,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "INTU",
@@ -2406,7 +2406,7 @@
       "live_yield_diff_5y": 1.8547293343907356,
       "live_yield_diff": 1.4163314903337652,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "LFUS",
@@ -2430,7 +2430,7 @@
       "live_yield_diff_5y": -0.28265579590412654,
       "live_yield_diff": -0.2565149861923011,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "POOL",
@@ -2454,7 +2454,7 @@
       "live_yield_diff_5y": 0.9505875897602273,
       "live_yield_diff": 1.3425650903117505,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SBUX",
@@ -2478,7 +2478,7 @@
       "live_yield_diff_5y": 0.07835418715289381,
       "live_yield_diff": 0.3041457299627616,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "TSCO",
@@ -2502,7 +2502,7 @@
       "live_yield_diff_5y": 0.8960635061668898,
       "live_yield_diff": 1.2683903317450986,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "AMGN",
@@ -2526,7 +2526,7 @@
       "live_yield_diff_5y": -0.008425852209797436,
       "live_yield_diff": 0.014442671882164995,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "FNF",
@@ -2550,7 +2550,7 @@
       "live_yield_diff_5y": 0.23538790489890077,
       "live_yield_diff": 0.5074502398429426,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "TSN",
@@ -2574,7 +2574,7 @@
       "live_yield_diff_5y": 0.21105281674726836,
       "live_yield_diff": 0.5880590622373949,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "AMT",
@@ -2598,7 +2598,7 @@
       "live_yield_diff_5y": 0.38805686207666334,
       "live_yield_diff": 0.7683138397193923,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "NKE",
@@ -2622,7 +2622,7 @@
       "live_yield_diff_5y": 1.5300200535428594,
       "live_yield_diff": 2.6094528047539134,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "JPM",
@@ -2646,7 +2646,7 @@
       "live_yield_diff_5y": -0.18130811567511446,
       "live_yield_diff": -0.23833284998105206,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "DKS",
@@ -2670,7 +2670,7 @@
       "live_yield_diff_5y": -0.01823226165363853,
       "live_yield_diff": -0.1577102281504634,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "MSCI",
@@ -2694,7 +2694,7 @@
       "live_yield_diff_5y": 0.42092330021653207,
       "live_yield_diff": 0.4823239405175617,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ALLY",
@@ -2718,7 +2718,7 @@
       "live_yield_diff_5y": -0.16923308218685088,
       "live_yield_diff": 0.12715548196447674,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "FMC",
@@ -2742,7 +2742,7 @@
       "live_yield_diff_5y": -0.018455662233554077,
       "live_yield_diff": 0.4103595314961931,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "SLGN",
@@ -2766,7 +2766,7 @@
       "live_yield_diff_5y": 0.2653635499077627,
       "live_yield_diff": 0.3379985013104021,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
     },
     {
       "ticker": "ASML",
@@ -2790,7 +2790,757 @@
       "live_yield_diff_5y": -0.41306261991506144,
       "live_yield_diff": -0.46116910415521,
       "status": "ok",
-      "fetched_at": "2026-06-28T05:25:42Z"
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "SCHD",
+      "name_ko": "슈왑 미국 배당주 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 32.09000015258789,
+      "live_dividend": 1.3080000000000003,
+      "live_yield": 0.04076036128951271,
+      "avg_yield_5y": 0.03249351615172901,
+      "live_yield_diff_5y": 0.2544152223841066,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "VIG",
+      "name_ko": "뱅가드 배당성장 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 234.55999755859375,
+      "live_dividend": 4.452,
+      "live_yield": 0.018980218478591507,
+      "avg_yield_5y": 0.016652823776971214,
+      "live_yield_diff_5y": 0.13975976283606573,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "VYM",
+      "name_ko": "뱅가드 고배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "고배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 158.22000122070312,
+      "live_dividend": 4.493,
+      "live_yield": 0.028397168280466997,
+      "avg_yield_5y": 0.02594876232485647,
+      "live_yield_diff_5y": 0.09435540412134365,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "DGRO",
+      "name_ko": "아이셰어즈 코어 배당성장 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 75.80000305175781,
+      "live_dividend": 1.802,
+      "live_yield": 0.023773086114120035,
+      "avg_yield_5y": 0.020809191704789738,
+      "live_yield_diff_5y": 0.1424319815674573,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "DGRW",
+      "name_ko": "위즈덤트리 미국 퀄리티 배당성장 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 94.66999816894531,
+      "live_dividend": 1.3929999999999998,
+      "live_yield": 0.014714270908869067,
+      "avg_yield_5y": 0.015487648430039769,
+      "live_yield_diff_5y": -0.049935116016106305,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "NOBL",
+      "name_ko": "프로셰어즈 S&P 500 배당귀족 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 56.290000915527344,
+      "live_dividend": 1.4400000000000002,
+      "live_yield": 0.02558180807566451,
+      "avg_yield_5y": 0.01871334699627182,
+      "live_yield_diff_5y": 0.36703541492396113,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "SDY",
+      "name_ko": "SPDR S&P 배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 153.11000061035156,
+      "live_dividend": 4.657,
+      "live_yield": 0.030416040633763453,
+      "avg_yield_5y": 0.023457034348554524,
+      "live_yield_diff_5y": 0.2966703370001144,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "DVY",
+      "name_ko": "아이셰어즈 셀렉트 배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "고배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 158.16000366210938,
+      "live_dividend": 6.4910000000000005,
+      "live_yield": 0.041040717309714245,
+      "avg_yield_5y": 0.032909258802711866,
+      "live_yield_diff_5y": 0.24708725759366879,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "HDV",
+      "name_ko": "아이셰어즈 코어 고배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "고배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 27.850000381469727,
+      "live_dividend": 0.9767999999999999,
+      "live_yield": 0.03507360813718062,
+      "avg_yield_5y": 0.03150652529849564,
+      "live_yield_diff_5y": 0.11321727181560391,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "SPYD",
+      "name_ko": "SPDR 포트폴리오 S&P 500 고배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "고배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 48.599998474121094,
+      "live_dividend": 2.531,
+      "live_yield": 0.052078190935494095,
+      "avg_yield_5y": 0.04152590998455106,
+      "live_yield_diff_5y": 0.25411317788987203,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "SPHD",
+      "name_ko": "인베스코 S&P 500 고배당 저변동성 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "고배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 51.709999084472656,
+      "live_dividend": 2.479,
+      "live_yield": 0.04794043790158155,
+      "avg_yield_5y": 0.03688726107561625,
+      "live_yield_diff_5y": 0.2996475342343005,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "RDVY",
+      "name_ko": "퍼스트트러스트 라이징 배당 성취 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "배당성장",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 79.29000091552734,
+      "live_dividend": 0.8480000000000001,
+      "live_yield": 0.01069491726836311,
+      "avg_yield_5y": 0.015704516079055663,
+      "live_yield_diff_5y": -0.31899096957044143,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "JEPI",
+      "name_ko": "JP모건 에쿼티 프리미엄 인컴 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "커버드콜",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 56.15999984741211,
+      "live_dividend": 5.1240000000000006,
+      "live_yield": 0.09123931648721538,
+      "avg_yield_5y": 0.07732803019903216,
+      "live_yield_diff_5y": 0.1798996593134133,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "JEPQ",
+      "name_ko": "JP모건 나스닥 에쿼티 프리미엄 인컴 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "커버드콜",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 59.41999816894531,
+      "live_dividend": 6.7410000000000005,
+      "live_yield": 0.11344665445518393,
+      "avg_yield_5y": 0.09010317330819141,
+      "live_yield_diff_5y": 0.25907501689366497,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "QYLD",
+      "name_ko": "글로벌X 나스닥 100 커버드콜 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "커버드콜",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 17.860000610351562,
+      "live_dividend": 2.264,
+      "live_yield": 0.12676371347310017,
+      "avg_yield_5y": 0.1092048999825165,
+      "live_yield_diff_5y": 0.1607877805244526,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "XYLD",
+      "name_ko": "글로벌X S&P 500 커버드콜 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "커버드콜",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 40.220001220703125,
+      "live_dividend": 4.625,
+      "live_yield": 0.11499253753426777,
+      "avg_yield_5y": 0.10070534535042866,
+      "live_yield_diff_5y": 0.1418712396459529,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "RYLD",
+      "name_ko": "글로벌X 러셀 2000 커버드콜 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "커버드콜",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 15.859999656677246,
+      "live_dividend": 2.001,
+      "live_yield": 0.1261664592254613,
+      "avg_yield_5y": 0.10612680823487586,
+      "live_yield_diff_5y": 0.18882741621923121,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "DIVO",
+      "name_ko": "앰플리파이 CWP 인핸스드 배당 인컴 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "커버드콜",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 45.68000030517578,
+      "live_dividend": 3.1189999999999998,
+      "live_yield": 0.06827933404471981,
+      "avg_yield_5y": 0.04630344346660656,
+      "live_yield_diff_5y": 0.47460596735018157,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "VNQ",
+      "name_ko": "뱅가드 리츠 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "리츠",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 98.66999816894531,
+      "live_dividend": 4.3420000000000005,
+      "live_yield": 0.04400527090884826,
+      "avg_yield_5y": 0.03456363734954811,
+      "live_yield_diff_5y": 0.27316666541241774,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "SCHH",
+      "name_ko": "슈왑 미국 리츠 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "리츠",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 24.219999313354492,
+      "live_dividend": 0.8200000000000001,
+      "live_yield": 0.03385631805314983,
+      "avg_yield_5y": 0.026424337248369352,
+      "live_yield_diff_5y": 0.2812551450174632,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "PFF",
+      "name_ko": "아이셰어즈 우선주 및 인컴 증권 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "우선주",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 30.360000610351562,
+      "live_dividend": 1.884,
+      "live_yield": 0.06205533472083101,
+      "avg_yield_5y": 0.05326030850778152,
+      "live_yield_diff_5y": 0.16513284394070882,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "PFFD",
+      "name_ko": "글로벌X 미국 우선주 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "우선주",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 18.639999389648438,
+      "live_dividend": 1.3000000000000003,
+      "live_yield": 0.06974249155404716,
+      "avg_yield_5y": 0.05511597576678915,
+      "live_yield_diff_5y": 0.26537706325198374,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "VYMI",
+      "name_ko": "뱅가드 국제 고배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "해외배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 97.80999755859375,
+      "live_dividend": 4.68,
+      "live_yield": 0.0478478695104395,
+      "avg_yield_5y": 0.04060110611948161,
+      "live_yield_diff_5y": 0.17848684638374115,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "IDV",
+      "name_ko": "아이셰어즈 국제 셀렉트 배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "해외배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 41.369998931884766,
+      "live_dividend": 3.064,
+      "live_yield": 0.07406333282833391,
+      "avg_yield_5y": 0.05745238240150587,
+      "live_yield_diff_5y": 0.2891255285245169,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "SCHY",
+      "name_ko": "슈왑 국제 배당주 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "해외배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 31.739999771118164,
+      "live_dividend": 1.458,
+      "live_yield": 0.045935728119529104,
+      "avg_yield_5y": 0.03531121634094421,
+      "live_yield_diff_5y": 0.30088206749948504,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "XLU",
+      "name_ko": "유틸리티 셀렉트 섹터 SPDR ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "섹터",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 46.20000076293945,
+      "live_dividend": 1.4735,
+      "live_yield": 0.03189393886724796,
+      "avg_yield_5y": 0.0269170014350969,
+      "live_yield_diff_5y": 0.1848994006316641,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "FDVV",
+      "name_ko": "피델리티 고배당 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "고배당",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "ETF",
+      "asset_category": "ETF",
+      "price": 60.119998931884766,
+      "live_dividend": 2.176,
+      "live_yield": 0.03619427875348737,
+      "avg_yield_5y": 0.030517497632483497,
+      "live_yield_diff_5y": 0.1860172544082181,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "VOO",
+      "name_ko": "뱅가드 S&P 500 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "벤치마크",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "비교용 ETF",
+      "asset_category": "ETF",
+      "price": 670.260009765625,
+      "live_dividend": 9.09,
+      "live_yield": 0.01356190115411864,
+      "avg_yield_5y": 0.012761662264067214,
+      "live_yield_diff_5y": 0.06270647769018643,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "QQQ",
+      "name_ko": "인베스코 QQQ ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "벤치마크",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "비교용 ETF",
+      "asset_category": "ETF",
+      "price": 706.52001953125,
+      "live_dividend": 3.625,
+      "live_yield": 0.005130781718549255,
+      "avg_yield_5y": 0.005562254745398893,
+      "live_yield_diff_5y": -0.0775716047896859,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
+    },
+    {
+      "ticker": "DIA",
+      "name_ko": "SPDR 다우존스 산업평균 ETF",
+      "level": "배당ETF",
+      "sector": "ETF",
+      "etf_type": "벤치마크",
+      "increase_years": null,
+      "pay_months": null,
+      "yield_baseline": null,
+      "dividend_annual": null,
+      "payout_ratio": null,
+      "growth_5y": null,
+      "avg_yield_10y": null,
+      "yield_diff_baseline": null,
+      "note": "비교용 ETF",
+      "asset_category": "ETF",
+      "price": 517.75,
+      "live_dividend": 8.412,
+      "live_yield": 0.016247223563495897,
+      "avg_yield_5y": 0.015820809912168773,
+      "live_yield_diff_5y": 0.02695270682692062,
+      "live_yield_diff": null,
+      "status": "ok",
+      "fetched_at": "2026-06-28T06:21:02Z"
     }
   ]
 }
