@@ -10,6 +10,7 @@
   --render   카메라 전체 렌더 (renders/*.png)
   --quick    저해상도·저샘플 테스트 렌더
   --save     .blend 저장 (--render 시 자동)
+  --gpu      GPU(OptiX)로 렌더 — 내 PC에서 setup_gpu.py를 한 번 실행한 뒤 사용
 
 치수 근거 (README.md 참고)
   - 도면 이미지(오늘의집, 465×463px)의 벽 중심선을 픽셀 단위로 측정
@@ -43,7 +44,10 @@ ENTRY_DROP = 0.10   # 현관 단차 (가정)
 HERE = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else os.getcwd()
 BLEND_PATH = os.path.join(HERE, "brownstone_hwigyeong_114_redesign.blend")
 RENDER_DIR = os.path.join(HERE, "renders")
-KO_FONT = "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+KO_FONT = next((f for f in ("C:/Windows/Fonts/malgun.ttf",                      # 윈도우: 맑은 고딕
+                             "/System/Library/Fonts/AppleSDGothicNeo.ttc",       # macOS
+                             "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc")    # 리눅스
+                if os.path.exists(f)), "")
 
 
 def X(px):
@@ -1332,4 +1336,6 @@ if __name__ == "__main__":
         print("saved:", BLEND_PATH)
     if "--render" in args:
         render_settings(quick="--quick" in args)
+        if "--gpu" in args:          # 내 PC(RTX 4080 SUPER): setup_gpu.py를 한 번 실행한 뒤 사용
+            configure_for_desktop()
         render_all(quick="--quick" in args, only=only)

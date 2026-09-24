@@ -27,7 +27,7 @@
 ### 내 PC(RTX 4080 SUPER)에서 GPU로 보기·렌더하기
 1. 블렌더에서 `.blend`를 연다. 3D 화면은 **Material Preview(GPU)**, 거실 카메라 시점으로 열리도록 저장되어 있다.
 2. 처음 한 번만: 위쪽 **Scripting** 탭 → Open → `setup_gpu.py` → ▶ Run Script. 환경설정이 **OptiX + RTX 4080 SUPER**로 바뀌고 저장된다.
-3. F12로 렌더한다. 파일의 렌더 장치는 GPU, 샘플 256, 노이즈 제거 OptiX로 설정되어 있다. 2번을 하지 않으면 블렌더가 CPU로 렌더한다.
+3. F12로 렌더한다. 8컷을 한 번에 렌더하려면 명령 프롬프트에서 `blender -b -P build_model.py -- --render --gpu` (블렌더 설치 폴더가 PATH에 없으면 blender.exe 전체 경로 사용). 파일의 렌더 장치는 GPU, 샘플 256, 노이즈 제거 OptiX로 설정되어 있다. 2번을 하지 않으면 블렌더가 CPU로 렌더한다.
 - 둘러볼 때는 뷰포트 우상단의 3번째 아이콘(Material Preview)을 쓴다. 4번째(Rendered)는 Cycles로 실시간 계산해서 더 무겁다.
 - 카메라 바꾸기: 오른쪽 목록 `07_카메라`에서 카메라 선택 → Ctrl + 숫자패드 0. 천장을 숨기려면 `04_천장_조명` 옆 눈 아이콘을 끈다.
 
