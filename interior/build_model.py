@@ -280,7 +280,7 @@ def build_materials():
     M["label_sub"] = mat("라벨_보조", (0.25, 0.08, 0.02), 1.0)
     M["outdoor_unit"] = mat("실외기실_바닥", (0.55, 0.55, 0.55), 0.9)
     M["louver"] = mat("루버도어", (0.75, 0.75, 0.74), 0.6)
-    M["concrete_mark"] = mat("표시_콘크리트벽_주황", (0.85, 0.22, 0.02), 0.8)
+    M["concrete_mark"] = mat("표시_내력벽_주황", (0.85, 0.22, 0.02), 0.8)
     return M
 
 
@@ -288,7 +288,7 @@ def build_materials():
 # 4. 건축 (벽·개구부·바닥·천장)
 # ────────────────────────────────────────────────────────────────────────────
 WALL_IDS = []
-# 제로준디자인 설계도(104동 1402호, 3쪽) 범례 "콘크리트벽(목공 미설치 부분)" 주황색 벽을 판독
+# 내력벽: 제로준디자인 설계도(104동 1402호, 3쪽) 주황색 벽을 판독, 사용자가 전부 내력벽임을 확인
 CONCRETE = {
     "벽_안방북", "벽_안방_거실", "벽_거실_자녀방1", "벽_자녀방1_자녀방2", "벽_자녀방북",
     "벽_서재남", "벽_드레스_복도", "벽_서재_주방", "벽_서재발코니_주방확장", "벽_주방_공용욕실",
@@ -325,13 +325,13 @@ def wall(name, p1, p2, t, M, C, openings=(), material=None):
 
     top = H - 0.0004 * (len(WALL_IDS) % 7)   # 겹치는 벽 윗면 z-fighting 방지용 미세 오프셋
     WALL_IDS.append(name)
-    if name in CONCRETE:   # 평면도·조감도용 주황색 표시 (실내 렌더에서는 숨김)
-        CK = coll("09_콘크리트벽(업체도면)")
+    if name in CONCRETE:   # 내력벽 — 평면도·조감도용 주황색 표시 (실내 렌더에서는 숨김)
+        CK = coll("09_내력벽")
         if horiz:
-            box(f"{name}_콘크리트표시", a, fixed - t / 2 - 0.01, H + 0.01, b, fixed + t / 2 + 0.01,
+            box(f"{name}_내력벽표시", a, fixed - t / 2 - 0.01, H + 0.01, b, fixed + t / 2 + 0.01,
                 H + 0.02, M["concrete_mark"], CK)
         else:
-            box(f"{name}_콘크리트표시", fixed - t / 2 - 0.01, a, H + 0.01, fixed + t / 2 + 0.01, b,
+            box(f"{name}_내력벽표시", fixed - t / 2 - 0.01, a, H + 0.01, fixed + t / 2 + 0.01, b,
                 H + 0.02, M["concrete_mark"], CK)
 
     def piece(tag, s, e, zb, zt):
@@ -1141,7 +1141,7 @@ def build_labels(M):
             C.objects.link(o)
     # 범례
     cu = bpy.data.curves.new("라벨_범례", type="FONT")
-    cu.body = ("주황색 = 콘크리트벽 (제로준디자인 설계도 판독)   "
+    cu.body = ("주황색 = 내력벽 (철거 불가)   "
                "비확장: 서재 뒤 발코니 · 다용도실 · 실외기실")
     if font:
         cu.font = font
@@ -1191,7 +1191,7 @@ def set_visibility(cutaway):
     """평면/조감: 천장·채움광 숨기고 라벨 표시 / 실내: 반대."""
     ceil = bpy.data.collections["04_천장_조명"]
     labels = bpy.data.collections["08_라벨(평면도용)"]
-    for o in bpy.data.collections["09_콘크리트벽(업체도면)"].objects:
+    for o in bpy.data.collections["09_내력벽"].objects:
         o.hide_render = not cutaway
     for o in ceil.objects:
         o.hide_render = cutaway
