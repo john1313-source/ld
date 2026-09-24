@@ -154,7 +154,7 @@
   </div>
 
   <nav id="views" class="card" aria-label="시점"></nav>
-  <div id="hint">드래그: 회전 · 휠/핀치: 확대 · 우클릭/두 손가락 드래그: 이동</div>
+  <div id="hint">드래그: 회전 · 휠/핀치: 확대 · 우클릭/두 손가락 드래그: 이동 · WASD: 걷기 (Shift: 빠르게)</div>
 
   <div id="loading"><span id="loading-text">모델 불러오는 중…</span><div id="bar"><i></i></div></div>
 </div>
@@ -392,7 +392,42 @@
     applyView(VIEWS[1], false);
   });
 
+  // WASD 걷기: 보는 방향 기준 수평 이동. 카메라와 회전 중심을 함께 옮겨 마우스 회전과 충돌하지 않게 한다.
+  // e.code(물리 키 위치)를 써서 한글 입력 상태에서도 동작한다
+  const MOVE_KEYS = { KeyW: [0, 1], KeyS: [0, -1], KeyA: [-1, 0], KeyD: [1, 0],
+                      ArrowUp: [0, 1], ArrowDown: [0, -1], ArrowLeft: [-1, 0], ArrowRight: [1, 0] };
+  const held = new Set();
+  let fast = false;
+  function typing(t) { return t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) && t.type !== "checkbox"); }
+  window.addEventListener("keydown", e => {
+    if (e.ctrlKey || e.metaKey || e.altKey || typing(e.target)) return;
+    fast = e.shiftKey;
+    if (MOVE_KEYS[e.code]) { held.add(e.code); e.preventDefault(); }
+  });
+  window.addEventListener("keyup", e => { fast = e.shiftKey; held.delete(e.code); });
+  window.addEventListener("blur", () => held.clear());
+  const fwd = new THREE.Vector3(), right = new THREE.Vector3(), step = new THREE.Vector3(), UP = new THREE.Vector3(0, 1, 0);
+  function walk(dt) {
+    if (!held.size) return;
+    let f = 0, r = 0;
+    held.forEach(c => { r += MOVE_KEYS[c][0]; f += MOVE_KEYS[c][1]; });
+    if (!f && !r) return;
+    camera.getWorldDirection(fwd); fwd.y = 0;
+    if (fwd.lengthSq() < 1e-4) fwd.set(0, 1, 0).applyQuaternion(camera.quaternion).setY(0);  // 평면도처럼 바로 위에서 볼 때: 화면 위쪽이 전진
+    fwd.normalize();
+    right.crossVectors(fwd, UP).normalize();
+    // 실내는 사람 걷는 속도(1.4 m/s), 밖에서 볼 때는 거리에 비례
+    const base = current.labels ? Math.max(2, camera.position.distanceTo(controls.target) * 0.25) : 1.4;
+    step.copy(fwd).multiplyScalar(f).addScaledVector(right, r).normalize().multiplyScalar(base * (fast ? 2.5 : 1) * dt);
+    camera.position.add(step);
+    controls.target.add(step);
+  }
+
+  let last = performance.now();
   (function loop() {
+    const now = performance.now();
+    walk(Math.min((now - last) / 1000, 0.1));
+    last = now;
     controls.update();
     renderer.render(scene, camera);
     placeLabels();
