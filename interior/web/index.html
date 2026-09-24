@@ -1,0 +1,356 @@
+<title>휘경 브라운스톤 42평</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #eceae6;
+    --scene: #e4e1dc;
+    --panel: rgba(250, 249, 247, 0.92);
+    --panel-solid: #faf9f7;
+    --line: #d9d5cf;
+    --text: #23211e;
+    --muted: #6d6860;
+    --accent: #c8501e;
+    --accent-ink: #ffffff;
+    --chip: #f1eee9;
+    --shadow: 0 6px 24px rgba(40, 32, 20, 0.12);
+    --font: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #151618;
+      --scene: #1b1c1f;
+      --panel: rgba(32, 33, 36, 0.92);
+      --panel-solid: #202124;
+      --line: #34363a;
+      --text: #ecebe8;
+      --muted: #a09c95;
+      --accent: #e0703f;
+      --accent-ink: #1a1208;
+      --chip: #2a2b2f;
+      --shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #151618;
+    --scene: #1b1c1f;
+    --panel: rgba(32, 33, 36, 0.92);
+    --panel-solid: #202124;
+    --line: #34363a;
+    --text: #ecebe8;
+    --muted: #a09c95;
+    --accent: #e0703f;
+    --accent-ink: #1a1208;
+    --chip: #2a2b2f;
+    --shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+  }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    overflow: hidden;
+  }
+  #app { position: relative; height: 100%; }
+  #stage { position: absolute; inset: 0; }
+  #stage canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(8px);
+  }
+  #info {
+    position: absolute; top: 16px; left: 16px;
+    max-width: min(340px, calc(100% - 32px));
+    padding: 12px 14px;
+    display: grid; gap: 4px;
+  }
+  #info h1 { margin: 0; font-size: 17px; font-weight: 600; text-wrap: balance; }
+  #info p { margin: 0; font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+  #info .spec { font-variant-numeric: tabular-nums; }
+
+  #toggles {
+    position: absolute; top: 16px; right: 16px;
+    padding: 6px; display: flex; flex-direction: column; gap: 4px;
+  }
+  .toggle {
+    display: flex; align-items: center; gap: 8px;
+    font: 500 13px var(--font); color: var(--text);
+    padding: 6px 8px; border-radius: 6px; cursor: pointer; user-select: none;
+  }
+  .toggle input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; }
+  .swatch { width: 12px; height: 4px; border-radius: 2px; background: var(--accent); }
+
+  #views {
+    position: absolute; left: 16px; right: 16px; bottom: 16px;
+    padding: 8px;
+    display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin;
+  }
+  #views button {
+    flex: 0 0 auto;
+    font: 500 13.5px var(--font);
+    color: var(--text); background: var(--chip);
+    border: 1px solid transparent; border-radius: 7px;
+    padding: 8px 12px; cursor: pointer; white-space: nowrap;
+  }
+  #views button:hover { border-color: var(--line); }
+  #views button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+  button:focus-visible, .toggle:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  #hint {
+    position: absolute; left: 50%; bottom: 84px; transform: translateX(-50%);
+    font-size: 12px; color: var(--muted); background: var(--panel);
+    border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px;
+    white-space: nowrap; pointer-events: none;
+  }
+  #labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+  .room {
+    position: absolute; transform: translate(-50%, -50%);
+    text-align: center; line-height: 1.25;
+    font-size: 12.5px; font-weight: 600; color: #23211e;
+    background: rgba(250, 249, 247, 0.86); border-radius: 5px; padding: 2px 6px;
+    white-space: nowrap;
+  }
+  .room small { display: block; font-weight: 400; font-size: 10.5px; color: #7a4a2a; font-variant-numeric: tabular-nums; }
+
+  #loading {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    background: var(--bg); color: var(--muted); font-size: 14px; gap: 10px;
+    align-content: center;
+  }
+  #bar { width: 180px; height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; }
+  #bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+
+  @media (max-width: 560px) {
+    #info { max-width: calc(100% - 32px); }
+    #info p.detail { display: none; }
+    #toggles { top: auto; bottom: 76px; right: 16px; }
+    #hint { display: none; }
+  }
+  [hidden] { display: none !important; }
+  @media (prefers-reduced-motion: reduce) { #bar i { transition: none; } }
+</style>
+
+<div id="app">
+  <div id="stage"></div>
+  <div id="labels" aria-hidden="true"></div>
+
+  <section id="info" class="card">
+    <h1>휘경 브라운스톤 42평 재설계</h1>
+    <p class="spec">전용 114.58㎡ · 방 4 · 욕실 2 · 천장고 2.35 m</p>
+    <p class="detail">남측 발코니와 주방 뒤 확장, 서재 뒤 발코니와 다용도실은 비확장. 모던 미니멀. 치수는 서재 실측(2950×3100) 외에는 도면 판독 추정치.</p>
+  </section>
+
+  <div id="toggles" class="card" role="group" aria-label="표시 설정">
+    <label class="toggle" for="t-ceiling"><input type="checkbox" id="t-ceiling"> 천장</label>
+    <label class="toggle" for="t-bearing"><input type="checkbox" id="t-bearing" checked> <span class="swatch" aria-hidden="true"></span> 내력벽</label>
+  </div>
+
+  <nav id="views" class="card" aria-label="시점"></nav>
+  <div id="hint">드래그: 회전 · 휠/핀치: 확대 · 우클릭/두 손가락 드래그: 이동</div>
+
+  <div id="loading"><span id="loading-text">모델 불러오는 중…</span><div id="bar"><i></i></div></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/loaders/GLTFLoader.js"></script>
+<script>
+(function () {
+  // Blender(Z-up, m) → three.js(Y-up): (x, y, z) → (x, z, -y)
+  const B = (x, y, z) => new THREE.Vector3(x, z, -y);
+  const CX = 7.05, CY = 4.47;
+
+  const VIEWS = [
+    { id: "plan",   name: "평면",       pos: B(CX, CY - 0.01, 21), tgt: B(CX, CY, 0), hfov: 55, ceiling: false, labels: true },
+    { id: "aerial", name: "조감",       pos: B(CX + 7.5, CY - 12, 15.5), tgt: B(CX, CY - 0.3, 0), hfov: 60, ceiling: false, labels: true },
+    { id: "living", name: "거실",       pos: B(7.75, 5.25, 1.4),  tgt: B(4.6, -0.6, 0.95), hfov: 95, ceiling: true },
+    { id: "kitchen",name: "주방·식당",  pos: B(6.2, 0.2, 1.45),   tgt: B(7.0, 9.6, 1.0),   hfov: 95, ceiling: true },
+    { id: "hall",   name: "현관복도",   pos: B(11.05, 4.45, 1.55),tgt: B(4.6, 4.7, 1.05),  hfov: 90, ceiling: true },
+    { id: "master", name: "안방",       pos: B(3.85, 3.7, 1.5),   tgt: B(0.5, 0.3, 0.8),   hfov: 95, ceiling: true },
+    { id: "study",  name: "서재",       pos: B(4.75, 5.8, 1.5),   tgt: B(2.3, 8.4, 0.9),   hfov: 95, ceiling: true },
+    { id: "kid1",   name: "자녀방1",    pos: B(11.0, 3.4, 1.5),   tgt: B(9.0, -0.8, 0.8),  hfov: 95, ceiling: true },
+    { id: "kid2",   name: "자녀방2",    pos: B(11.6, 3.4, 1.5),   tgt: B(13.5, -0.8, 0.8), hfov: 95, ceiling: true },
+  ];
+  const ROOMS = [
+    ["거실", "4.30×5.14m", 6.35, 0.49], ["주방·식당", "3.96×4.79m", 5.68, 8.38],
+    ["안방", "4.20×5.57m", 2.3, -0.1], ["드레스룸", "2.36×2.03m", 1.18, 5.1],
+    ["안방욕실", "2.05×2.62m", 1.02, 7.12], ["서재·게스트", "2.95×3.10m 실측", 3.52, 6.89],
+    ["다용도실", "1.91×1.69m", 8.99, 9.18], ["발코니(비확장)", "3.97×1.02m", 3.01, 9.25],
+    ["공용욕실", "1.68×2.43m", 9.8, 6.31], ["현관", "1.51×1.99m", 12.03, 6.49],
+    ["자녀방1", "2.78×4.76m", 9.89, 1.19], ["자녀방2", "2.81×4.76m", 12.69, 1.19],
+    ["팬트리", "1.30×1.06m", 13.44, 4.19],
+  ];
+
+  const stage = document.getElementById("stage");
+  const labelsEl = document.getElementById("labels");
+  const css = getComputedStyle(document.documentElement);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.outputEncoding = THREE.sRGBEncoding;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.05;
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  stage.appendChild(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  function paintBackground() {
+    scene.background = new THREE.Color(getComputedStyle(document.documentElement).getPropertyValue("--scene").trim() || "#e4e1dc");
+  }
+  paintBackground();
+  new MutationObserver(paintBackground).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  if (window.matchMedia) window.matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", paintBackground);
+
+  const camera = new THREE.PerspectiveCamera(60, 1, 0.05, 200);
+  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.08;
+  controls.maxDistance = 45;
+
+  // 조명: 하늘/바닥 반구광 + 남쪽 오후 햇빛(그림자) + 약한 실내 채움광
+  scene.add(new THREE.HemisphereLight(0xf6f3ee, 0x8a847a, 0.75));
+  const sun = new THREE.DirectionalLight(0xfff1dd, 1.35);
+  sun.position.copy(B(CX - 6, CY - 14, 16));
+  sun.target.position.copy(B(CX, CY, 0));
+  sun.castShadow = true;
+  sun.shadow.mapSize.set(2048, 2048);
+  Object.assign(sun.shadow.camera, { left: -12, right: 12, top: 12, bottom: -12, near: 1, far: 50 });
+  sun.shadow.bias = -0.0006;
+  scene.add(sun, sun.target);
+  const fill = new THREE.PointLight(0xffe6c8, 0.35, 0, 2);
+  fill.position.copy(B(CX, CY, 2.0));
+  scene.add(fill);
+
+  const ceilingParts = [], bearingParts = [];
+  let current = VIEWS[1];
+
+  function setFov(view) {
+    const aspect = camera.aspect;
+    const h = THREE.MathUtils.degToRad(view.hfov);
+    let v = 2 * Math.atan(Math.tan(h / 2) / aspect);
+    v = Math.min(THREE.MathUtils.radToDeg(v), 105);
+    camera.fov = v;
+    camera.updateProjectionMatrix();
+  }
+
+  function applyView(view, animate) {
+    current = view;
+    document.querySelectorAll("#views button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.id === view.id)));
+    const ceil = document.getElementById("t-ceiling");
+    ceil.checked = view.ceiling;
+    setCeiling(view.ceiling);
+    const interior = !view.labels;
+    // 실내: 제자리에서 둘러보도록 회전 중심을 카메라 바로 앞에 둔다
+    const target = interior
+      ? view.pos.clone().add(view.tgt.clone().sub(view.pos).normalize().multiplyScalar(0.25))
+      : view.tgt.clone();
+    controls.enablePan = !interior;
+    controls.minDistance = interior ? 0.05 : 2;
+    controls.maxDistance = interior ? 0.6 : 45;
+    const from = { p: camera.position.clone(), t: controls.target.clone() };
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    setFov(view);
+    if (!animate || reduce) {
+      camera.position.copy(view.pos); controls.target.copy(target); controls.update(); return;
+    }
+    const t0 = performance.now(), dur = 700;
+    (function step(now) {
+      const k = Math.min(1, (now - t0) / dur), e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+      camera.position.lerpVectors(from.p, view.pos, e);
+      controls.target.lerpVectors(from.t, target, e);
+      controls.update();
+      if (k < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+
+  function setCeiling(on) { ceilingParts.forEach(o => (o.visible = on)); }
+  function setBearing(on) { bearingParts.forEach(o => (o.visible = on)); }
+  document.getElementById("t-ceiling").addEventListener("change", e => setCeiling(e.target.checked));
+  document.getElementById("t-bearing").addEventListener("change", e => setBearing(e.target.checked));
+
+  const nav = document.getElementById("views");
+  VIEWS.forEach(v => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = v.name; b.dataset.id = v.id;
+    b.setAttribute("aria-pressed", "false");
+    b.addEventListener("click", () => applyView(v, true));
+    nav.appendChild(b);
+  });
+
+  const roomEls = ROOMS.map(([n, d, x, y]) => {
+    const el = document.createElement("div");
+    el.className = "room";
+    el.innerHTML = `${n}<small>${d}</small>`;
+    labelsEl.appendChild(el);
+    return { el, p: B(x, y, 2.5) };
+  });
+  const tmp = new THREE.Vector3();
+  function placeLabels() {
+    const show = current.labels && !document.getElementById("t-ceiling").checked;
+    const w = stage.clientWidth, h = stage.clientHeight;
+    roomEls.forEach(r => {
+      if (!show) { r.el.hidden = true; return; }
+      tmp.copy(r.p).project(camera);
+      const vis = tmp.z < 1 && Math.abs(tmp.x) < 1.1 && Math.abs(tmp.y) < 1.1;
+      r.el.hidden = !vis;
+      if (vis) r.el.style.left = ((tmp.x + 1) / 2 * w) + "px", r.el.style.top = ((1 - tmp.y) / 2 * h) + "px";
+    });
+  }
+
+  function resize() {
+    const w = stage.clientWidth, h = stage.clientHeight;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / Math.max(h, 1);
+    setFov(current);
+  }
+  window.addEventListener("resize", resize);
+  resize();
+
+  const bar = document.querySelector("#bar i");
+  new THREE.GLTFLoader().load("brownstone_114.gltf.json", gltf => {
+    const root = gltf.scene;
+    root.traverse(o => {
+      const n = o.name || "";
+      if (/^천장$|^천장_|매입등_|시스템에어컨_|라인조명/.test(n)) ceilingParts.push(o);
+      if (n.includes("내력벽표시")) bearingParts.push(o);
+      if (o.isMesh) {
+        o.castShadow = !/유리|커튼/.test(o.material?.name || "");
+        o.receiveShadow = true;
+        const m = o.material;
+        // 반사할 환경맵이 없어 금속이 검게 보이므로 금속성을 낮춰 고유색을 살린다
+        if (m && m.metalness > 0.5 && !/유리/.test(m.name)) {
+          m.metalness = /거울/.test(m.name) ? 0.35 : 0.15;
+          m.roughness = Math.max(m.roughness, 0.35);
+        }
+        if (m && /유리/.test(m.name)) {
+          m.transparent = true; m.opacity = 0.18; m.transmission = 0; m.depthWrite = false;
+        }
+        if (m && /커튼/.test(m.name)) { m.transparent = true; m.opacity = 0.7; m.transmission = 0; }
+      }
+    });
+    scene.add(root);
+    document.getElementById("loading").hidden = true;
+    applyView(VIEWS[1], false);
+  }, xhr => {
+    if (xhr.total) bar.style.width = Math.round(xhr.loaded / xhr.total * 100) + "%";
+  }, err => {
+    document.getElementById("loading-text").textContent = "모델을 불러오지 못했습니다. 페이지를 새로고침해 주세요.";
+    console.error(err);
+  });
+
+  (function loop() {
+    controls.update();
+    renderer.render(scene, camera);
+    placeLabels();
+    requestAnimationFrame(loop);
+  })();
+})();
+</script>
