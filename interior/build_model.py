@@ -653,20 +653,23 @@ def desk(name, x1, y1, x2, y2, M, C, top="cab_oak"):
 
 
 def shelf_unit(name, x1, y1, x2, y2, z1, z2, n, M, C, facing="x", books=True):
+    """오픈 선반. facing='x': x 방향으로 길게 놓이고 y 쪽이 열림 / 'y': y 방향으로 길고 x 쪽이 열림."""
     t = 0.02
-    box(f"{name}_측1", x1, y1, z1, x1 + t if facing == "y" else x2, y1 + t if facing == "x" else y2,
-        z2, M["cab_white"], C)
-    box(f"{name}_측2", x2 - t if facing == "y" else x1, y2 - t if facing == "x" else y1, z1, x2,
-        y2, z2, M["cab_white"], C)
+    if facing == "x":
+        box(f"{name}_측1", x1, y1, z1, x1 + t, y2, z2, M["cab_white"], C)
+        box(f"{name}_측2", x2 - t, y1, z1, x2, y2, z2, M["cab_white"], C)
+    else:
+        box(f"{name}_측1", x1, y1, z1, x2, y1 + t, z2, M["cab_white"], C)
+        box(f"{name}_측2", x1, y2 - t, z1, x2, y2, z2, M["cab_white"], C)
     for k in range(n + 1):
         z = z1 + (z2 - z1 - t) * k / n
         box(f"{name}_선반{k}", x1, y1, z, x2, y2, z + t, M["cab_white"], C)
-        if books and 0 < k < n + 0 and k % 2 == 1:
+        if books and k < n and k % 2 == 1:
             if facing == "x":
-                box(f"{name}_책{k}", x1 + 0.03, y1 + 0.1, z + t, x2 - 0.03, y1 + (y2 - y1) * 0.55,
+                box(f"{name}_책{k}", x1 + 0.1, y1 + 0.03, z + t, x1 + (x2 - x1) * 0.55, y2 - 0.03,
                     z + t + 0.24, M["book"], C)
             else:
-                box(f"{name}_책{k}", x1 + 0.1, y1 + 0.03, z + t, x1 + (x2 - x1) * 0.55, y2 - 0.03,
+                box(f"{name}_책{k}", x1 + 0.03, y1 + 0.1, z + t, x2 - 0.03, y1 + (y2 - y1) * 0.55,
                     z + t + 0.24, M["book"], C)
 
 
@@ -1054,7 +1057,7 @@ CAMERAS = {
     "01_조감도": ((CX + 7.5, CY - 12.0, 15.5), (CX, CY - 0.3, 0.0), 30, None, (1920, 1280), True),
     "02_거실": ((7.75, 5.25, 1.4), (4.6, -0.6, 0.95), 16, None, (1440, 900), False),
     "03_주방식당": ((6.2, 0.2, 1.45), (7.0, 9.6, 1.0), 17, None, (1440, 900), False),
-    "04_현관복도": ((12.3, 4.55, 1.55), (4.6, 4.6, 1.05), 18, None, (1440, 900), False),
+    "04_현관복도": ((11.05, 4.45, 1.55), (4.6, 4.7, 1.05), 18, None, (1440, 900), False),
     "05_안방": ((3.85, 3.7, 1.5), (0.5, 0.3, 0.8), 16, None, (1440, 900), False),
     "06_서재": ((4.7, 5.85, 1.5), (2.2, 9.5, 0.9), 16, None, (1440, 900), False),
     "07_자녀방1": ((11.0, 3.4, 1.5), (9.0, -0.8, 0.8), 16, None, (1440, 900), False),
