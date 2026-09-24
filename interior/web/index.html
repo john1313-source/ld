@@ -315,7 +315,57 @@
   resize();
 
   const bar = document.querySelector("#bar i");
-  new THREE.GLTFLoader().load("brownstone_114.gltf.json", gltf => {
+  // 게시 환경은 data: URI 요청을 막으므로, JSON을 직접 받아 내장 버퍼를 풀고 GLB로 조립해 parse 한다
+  function toGlb(json) {
+    const buf = json.buffers[0];
+    const b64 = buf.uri.slice(buf.uri.indexOf(",") + 1);
+    const raw = atob(b64);
+    const bin = new Uint8Array(raw.length);
+    for (let i = 0; i < raw.length; i++) bin[i] = raw.charCodeAt(i);
+    delete buf.uri;
+    buf.byteLength = bin.length;
+    const enc = new TextEncoder().encode(JSON.stringify(json));
+    const jsonLen = Math.ceil(enc.length / 4) * 4, binLen = Math.ceil(bin.length / 4) * 4;
+    const out = new ArrayBuffer(12 + 8 + jsonLen + 8 + binLen);
+    const dv = new DataView(out), u8 = new Uint8Array(out);
+    dv.setUint32(0, 0x46546C67, true); dv.setUint32(4, 2, true); dv.setUint32(8, out.byteLength, true);
+    dv.setUint32(12, jsonLen, true); dv.setUint32(16, 0x4E4F534A, true);
+    u8.set(enc, 20); u8.fill(0x20, 20 + enc.length, 20 + jsonLen);
+    const o = 20 + jsonLen;
+    dv.setUint32(o, binLen, true); dv.setUint32(o + 4, 0x004E4942, true);
+    u8.set(bin, o + 8);
+    return out;
+  }
+  function onError(err) {
+    document.getElementById("loading-text").textContent = "모델을 불러오지 못했습니다. 페이지를 새로고침해 주세요.";
+    console.error(err);
+  }
+  function loadModel(onLoad) {
+    fetch("brownstone_114.gltf.json")
+      .then(r => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        const total = +r.headers.get("content-length") || 0;
+        if (!r.body || !total) return r.json();
+        const reader = r.body.getReader(), chunks = [];
+        let got = 0;
+        return (function pump() {
+          return reader.read().then(({ done, value }) => {
+            if (done) return JSON.parse(new TextDecoder().decode(concat(chunks, got)));
+            chunks.push(value); got += value.length;
+            bar.style.width = Math.round(got / total * 100) + "%";
+            return pump();
+          });
+        })();
+      })
+      .then(json => new THREE.GLTFLoader().parse(toGlb(json), "", onLoad, onError))
+      .catch(onError);
+  }
+  function concat(chunks, n) {
+    const a = new Uint8Array(n); let o = 0;
+    chunks.forEach(c => { a.set(c, o); o += c.length; });
+    return a;
+  }
+  loadModel(gltf => {
     const root = gltf.scene;
     root.traverse(o => {
       const n = o.name || "";
@@ -339,11 +389,6 @@
     scene.add(root);
     document.getElementById("loading").hidden = true;
     applyView(VIEWS[1], false);
-  }, xhr => {
-    if (xhr.total) bar.style.width = Math.round(xhr.loaded / xhr.total * 100) + "%";
-  }, err => {
-    document.getElementById("loading-text").textContent = "모델을 불러오지 못했습니다. 페이지를 새로고침해 주세요.";
-    console.error(err);
   });
 
   (function loop() {
