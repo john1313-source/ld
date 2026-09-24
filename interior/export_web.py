@@ -33,7 +33,7 @@ def main():
         if not m.use_nodes:
             continue
         nt = m.node_tree
-        b = nt.nodes.get("Principled BSDF")
+        b = next((n for n in nt.nodes if n.type == "BSDF_PRINCIPLED"), None)   # 한국어 UI는 노드 이름을 번역
         if b is None:
             continue
         for sock in ("Base Color", "Normal"):

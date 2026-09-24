@@ -44,9 +44,10 @@ ENTRY_DROP = 0.10   # 현관 단차 (가정)
 HERE = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else os.getcwd()
 BLEND_PATH = os.path.join(HERE, "brownstone_hwigyeong_114_redesign.blend")
 RENDER_DIR = os.path.join(HERE, "renders")
-KO_FONT = next((f for f in ("C:/Windows/Fonts/malgun.ttf",                      # 윈도우: 맑은 고딕
-                             "/System/Library/Fonts/AppleSDGothicNeo.ttc",       # macOS
-                             "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc")    # 리눅스
+# 라벨 폰트는 .blend에 포함(pack)되어 공개 저장소에 올라가므로 OFL/GPL 무료 폰트만 쓴다 (맑은 고딕 등 OS 번들 폰트 제외)
+KO_FONT = next((f for f in (os.path.join(bpy.utils.system_resource("DATAFILES", path="fonts"),
+                                          "Noto Sans CJK Regular.woff2"),         # 블렌더 내장 (OFL)
+                             "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc")    # 리눅스 (GPL + 폰트 예외)
                 if os.path.exists(f)), "")
 
 
@@ -62,7 +63,8 @@ def Y(py):
 # 2. 공통 유틸
 # ────────────────────────────────────────────────────────────────────────────
 def reset_scene():
-    bpy.ops.wm.read_factory_settings(use_empty=True)
+    # read_factory_settings는 환경설정(Cycles GPU 장치)까지 초기화해서 --gpu가 CPU로 렌더된다 → 씬만 초기화
+    bpy.ops.wm.read_homefile(use_empty=True, use_factory_startup=True)
 
 
 def coll(name, parent=None):
@@ -82,6 +84,11 @@ def set_input(node, name, value):
     return False
 
 
+def node_of(nt, type_):
+    """기본 노드를 이름이 아닌 타입으로 찾는다 (한국어 UI는 새 노드 이름을 번역한다: '프린시플드 BSDF')."""
+    return next(n for n in nt.nodes if n.type == type_)
+
+
 MATS = {}
 
 
@@ -91,7 +98,7 @@ def mat(name, color, rough=0.5, metal=0.0, transmission=0.0, emission=None,
         return MATS[name]
     m = bpy.data.materials.new(name)
     m.use_nodes = True
-    b = m.node_tree.nodes["Principled BSDF"]
+    b = node_of(m.node_tree, "BSDF_PRINCIPLED")
     set_input(b, "Base Color", (*color, 1.0))
     set_input(b, "Roughness", rough)
     set_input(b, "Metallic", metal)
@@ -117,7 +124,7 @@ def tile_mat(name, c1, c2, grout, w, h, rough=0.4, offset=0.0, grout_size=0.0025
     m = bpy.data.materials.new(name)
     m.use_nodes = True
     nt = m.node_tree
-    b = nt.nodes["Principled BSDF"]
+    b = node_of(nt, "BSDF_PRINCIPLED")
     set_input(b, "Roughness", rough)
     tc = nt.nodes.new("ShaderNodeTexCoord")
     sep = nt.nodes.new("ShaderNodeSeparateXYZ")
@@ -1077,7 +1084,7 @@ def build_lighting():
     w = bpy.data.worlds.new("하늘")
     bpy.context.scene.world = w
     w.use_nodes = True
-    bg = w.node_tree.nodes["Background"]
+    bg = node_of(w.node_tree, "BACKGROUND")
     set_input(bg, "Color", (0.62, 0.74, 0.92, 1))
     set_input(bg, "Strength", 1.2)
 
@@ -1127,6 +1134,25 @@ def build_cameras():
         add_camera(n, loc, tgt, lens, ortho, rot=(0, 0, 0) if ortho else None)
 
 
+LABEL_GA_H = 0.80   # size 1일 때 '가'의 높이 — 맑은 고딕으로 렌더한 이전 라벨 크기 기준 (직접 측정)
+
+
+def label_scale(font):
+    """폰트마다 같은 size에서 글자 크기가 달라서(Noto Sans CJK는 맑은 고딕의 약 0.4배) '가' 높이로 맞춘다."""
+    if font is None:
+        return 1.0
+    cu = bpy.data.curves.new("_폰트측정", type="FONT")
+    cu.body = "가"
+    cu.font = font
+    o = bpy.data.objects.new("_폰트측정", cu)
+    bpy.context.scene.collection.objects.link(o)
+    bpy.context.view_layer.update()
+    h = o.dimensions.y
+    bpy.data.objects.remove(o, do_unlink=True)
+    bpy.data.curves.remove(cu)
+    return LABEL_GA_H / h if h > 0 else 1.0
+
+
 def build_labels(M):
     C = coll("08_라벨(평면도용)")
     font = None
@@ -1135,6 +1161,7 @@ def build_labels(M):
             font = bpy.data.fonts.load(KO_FONT, check_existing=True)
         except Exception as e:   # 폰트 로드 실패 시 영문 대체
             print("font load failed:", e)
+    k_font = label_scale(font)
     P = pxrect
     labels = [
         ("거실", P(139.5, 197.5, 263.5, 343.5), (0.0, -0.6)),
@@ -1159,7 +1186,7 @@ def build_labels(M):
             cu.body = txt
             if font:
                 cu.font = font
-            cu.size = size
+            cu.size = size * k_font
             cu.align_x = "CENTER"
             cu.align_y = "CENTER"
             o = bpy.data.objects.new(f"라벨_{name}_{k}", cu)
@@ -1173,7 +1200,7 @@ def build_labels(M):
                "비확장: 서재 뒤 발코니 · 다용도실 · 실외기실")
     if font:
         cu.font = font
-    cu.size = 0.2
+    cu.size = 0.2 * k_font
     cu.align_x = "LEFT"
     cu.align_y = "CENTER"
     o = bpy.data.objects.new("라벨_범례", cu)

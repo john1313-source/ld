@@ -19,22 +19,26 @@
 
 | 방법 | 명령 |
 |---|---|
-| 완성 파일 열기 | 블렌더에서 `brownstone_hwigyeong_114_redesign.blend` 열기 (블렌더 4.5 LTS에서 저장. 4.2 이상 권장 — 하위 버전 호환은 **직접 확인 못 함**) |
+| 완성 파일 열기 | 블렌더에서 `brownstone_hwigyeong_114_redesign.blend` 열기 (**블렌더 5.2.2 LTS에서 저장**. 4.x에서 열리는지는 **직접 확인 못 함** — 안 열리면 `build_model.py`로 다시 생성) |
 | 스크립트로 다시 생성 | 블렌더 → Scripting 탭 → `build_model.py` 열기 → Run Script |
 | 명령줄 렌더 | `blender -b -P build_model.py -- --render` (`--quick`: 테스트용 저해상도, `--only=00_평면도,02_거실`: 일부 카메라만) |
 | bpy 모듈 | `pip install bpy==4.5.*` 후 `python build_model.py --render` |
+| 웹 뷰어 모델 | `blender -b -P export_web.py` → `web/brownstone_114.glb`. `web/brownstone_114.gltf.json`은 같은 GLB의 BIN 청크를 base64 data URI로 넣은 glTF JSON(뷰어가 읽는 파일) |
 
 ### 내 PC(RTX 4080 SUPER)에서 GPU로 보기·렌더하기
 1. 블렌더에서 `.blend`를 연다. 3D 화면은 **Material Preview(GPU)**, 거실 카메라 시점으로 열리도록 저장되어 있다.
 2. 처음 한 번만: 위쪽 **Scripting** 탭 → Open → `setup_gpu.py` → ▶ Run Script. 환경설정이 **OptiX + RTX 4080 SUPER**로 바뀌고 저장된다.
 3. F12로 렌더한다. 8컷을 한 번에 렌더하려면 명령 프롬프트에서 `blender -b -P build_model.py -- --render --gpu` (블렌더 설치 폴더가 PATH에 없으면 blender.exe 전체 경로 사용). 파일의 렌더 장치는 GPU, 샘플 256, 노이즈 제거 OptiX로 설정되어 있다. 2번을 하지 않으면 블렌더가 CPU로 렌더한다.
+- **Microsoft Store판 블렌더**는 `blender.exe`를 명령줄에서 직접 실행할 수 없다(접근 거부). 대신 `%LOCALAPPDATA%\Microsoft\WindowsApps\blender-launcher.exe -b -P build_model.py -- --render --gpu`를 쓴다. 이 런처는 실행이 끝날 때까지 기다리지만 콘솔 출력을 넘겨주지 않는다(직접 확인).
+- 2번(`setup_gpu.py`)은 GUI용이다. 백그라운드에서는 같은 설정(`compute_device_type='OPTIX'`, OptiX 장치 `use=True`, `save_userpref`)을 스크립트로 실행하면 된다.
+- 2026-09-24 이 PC 실행 결과(직접 확인): 8컷 모두 OptiX · RTX 4080 SUPER, 256샘플로 렌더. 컷당 3.6~9.4초, 모델 생성·저장 포함 전체 약 70초.
 - 둘러볼 때는 뷰포트 우상단의 3번째 아이콘(Material Preview)을 쓴다. 4번째(Rendered)는 Cycles로 실시간 계산해서 더 무겁다.
 - 카메라 바꾸기: 오른쪽 목록 `07_카메라`에서 카메라 선택 → Ctrl + 숫자패드 0. 천장을 숨기려면 `04_천장_조명` 옆 눈 아이콘을 끈다.
 
 - 카메라: `00_평면도`(직교 탑뷰), `01_조감도`, `02_거실`, `03_주방식당`, `04_현관복도`, `05_안방`, `06_서재`, `07_자녀방1`
 - 평면도와 조감도는 천장을 숨기고 라벨과 내력벽 표시를 보이게 한다. 실내 컷은 그 반대다. 스크립트의 `set_visibility()`가 자동으로 처리한다.
 - 컬렉션 구성: `01_벽체` / `02_창호_문` / `03_바닥` / `04_천장_조명` / `05_가구`(방별 하위) / `06_라이트` / `07_카메라` / `08_라벨` / `09_내력벽`
-- 한글 라벨 폰트(WenQuanYi Zen Hei)는 .blend 안에 포함(pack)되어 있다.
+- 한글 라벨 폰트는 블렌더에 함께 설치되는 **Noto Sans CJK Regular(OFL 라이선스)**이며 .blend 안에 포함(pack)되어 있다. 공개 저장소라서 맑은 고딕 같은 OS 번들 폰트는 넣지 않는다(사용자 결정). 폰트마다 글자 크기 기준이 달라서 '가' 높이로 라벨 크기를 맞춘다(`label_scale`).
 
 ---
 
