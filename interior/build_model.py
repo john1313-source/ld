@@ -1282,7 +1282,31 @@ def build():
     render_settings()
     set_visibility(False)
     sc.camera = bpy.data.objects["02_거실"]
+    configure_for_desktop()
     return font
+
+
+def configure_for_desktop():
+    """저장 파일을 데스크톱 GPU(RTX 4080 SUPER, OptiX) 기준으로 설정.
+    GPU 사용 여부 자체는 블렌더 환경설정(setup_gpu.py)에서 켜야 하며, 켜지 않으면 CPU로 렌더된다."""
+    sc = bpy.context.scene
+    sc.cycles.device = "GPU"
+    sc.cycles.samples = 256
+    sc.cycles.adaptive_threshold = 0.01
+    try:
+        sc.cycles.denoiser = "OPTIX"
+    except TypeError:
+        pass
+    for scr in bpy.data.screens:
+        for area in scr.areas:
+            if area.type != "VIEW_3D":
+                continue
+            for sp in area.spaces:
+                if sp.type == "VIEW_3D":
+                    sp.shading.type = "MATERIAL"      # Material Preview (GPU 뷰포트)
+                    sp.clip_end = 200
+                    if sp.region_3d is not None:
+                        sp.region_3d.view_perspective = "CAMERA"
 
 
 def _argv():
