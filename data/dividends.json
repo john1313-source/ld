@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:14:05Z",
+  "generated_at": "2026-10-15T22:45:55Z",
   "ok_count": 143,
   "failed_count": 3,
   "source": "수페의 배당책 리스트",
@@ -21,14 +21,14 @@
       "yield_diff_baseline": 0.463277,
       "note": null,
       "asset_category": "주식",
-      "price": 82.58999633789062,
+      "price": 82.73999786376953,
       "live_dividend": 2.016,
-      "live_yield": 0.02440973591707377,
-      "avg_yield_5y": 0.021023544333852038,
-      "live_yield_diff_5y": 0.16106663697848975,
-      "live_yield_diff": 0.37908112525840504,
+      "live_yield": 0.02436548286258505,
+      "avg_yield_5y": 0.021023507117390188,
+      "live_yield_diff_5y": 0.15896376025817555,
+      "live_yield_diff": 0.37658095268842084,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DOV",
@@ -45,14 +45,14 @@
       "yield_diff_baseline": -0.408867,
       "note": null,
       "asset_category": "주식",
-      "price": 194.1999969482422,
+      "price": 194.08999633789062,
       "live_dividend": 2.08,
-      "live_yield": 0.01071060778932122,
-      "avg_yield_5y": 0.011753257705186936,
-      "live_yield_diff_5y": -0.08871156763673914,
-      "live_yield_diff": -0.34047981592849635,
+      "live_yield": 0.010716678032076083,
+      "avg_yield_5y": 0.01175326165339245,
+      "live_yield_diff_5y": -0.08819540072241722,
+      "live_yield_diff": -0.3401060325076304,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "GPC",
@@ -69,14 +69,14 @@
       "yield_diff_baseline": 0.409204,
       "note": "배당성향: 실적저점으로 PER 왜곡(기존값 유지)",
       "asset_category": "주식",
-      "price": 133.52999877929688,
+      "price": 133.50999450683594,
       "live_dividend": 4.252,
-      "live_yield": 0.03184303181959775,
-      "avg_yield_5y": 0.027317062854360828,
-      "live_yield_diff_5y": 0.16568285504802757,
-      "live_yield_diff": 0.13603395717437575,
+      "live_yield": 0.031847802973149625,
+      "avg_yield_5y": 0.027317067328201668,
+      "live_yield_diff_5y": 0.16585732247584659,
+      "live_yield_diff": 0.13620417314126385,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "NWN",
@@ -100,7 +100,7 @@
       "live_yield_diff_5y": -0.02960470990999821,
       "live_yield_diff": 0.0798500707265641,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PG",
@@ -117,14 +117,14 @@
       "yield_diff_baseline": 0.088922,
       "note": null,
       "asset_category": "주식",
-      "price": 157.05999755859375,
+      "price": 157.0800018310547,
       "live_dividend": 4.356,
-      "live_yield": 0.0277346241418024,
-      "avg_yield_5y": 0.024374379424483006,
-      "live_yield_diff_5y": 0.13785970337132658,
-      "live_yield_diff": 0.04501221333091175,
+      "live_yield": 0.027731092113718193,
+      "avg_yield_5y": 0.024374376439990925,
+      "live_yield_diff_5y": 0.13771493527194076,
+      "live_yield_diff": 0.04487913013256188,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PH",
@@ -141,14 +141,14 @@
       "yield_diff_baseline": -0.43884,
       "note": null,
       "asset_category": "주식",
-      "price": 961.7490234375,
+      "price": 961.75,
       "live_dividend": 8.0,
-      "live_yield": 0.00831817844889123,
-      "avg_yield_5y": 0.012101272877724,
-      "live_yield_diff_5y": -0.3126195456509937,
-      "live_yield_diff": -0.4755246879639829,
+      "live_yield": 0.008318170002599427,
+      "avg_yield_5y": 0.01210127287137412,
+      "live_yield_diff_5y": -0.31262024325752724,
+      "live_yield_diff": -0.47552522051706003,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "EMR",
@@ -165,14 +165,14 @@
       "yield_diff_baseline": -0.447784,
       "note": null,
       "asset_category": "주식",
-      "price": 162.16000366210938,
+      "price": 162.14999389648438,
       "live_dividend": 2.22,
-      "live_yield": 0.013690182226597531,
-      "avg_yield_5y": 0.018770015852324375,
-      "live_yield_diff_5y": -0.2706355533044361,
-      "live_yield_diff": -0.4857181733058779,
+      "live_yield": 0.013691027342358306,
+      "avg_yield_5y": 0.01877001664241696,
+      "live_yield_diff_5y": -0.2705905592316325,
+      "live_yield_diff": -0.4856864259069006,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CINF",
@@ -196,7 +196,7 @@
       "live_yield_diff_5y": -0.04978287313946189,
       "live_yield_diff": -0.18026436462398035,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CL",
@@ -213,14 +213,14 @@
       "yield_diff_baseline": 0.022087,
       "note": null,
       "asset_category": "주식",
-      "price": 92.63999938964844,
+      "price": 92.66999816894531,
       "live_dividend": 2.12,
-      "live_yield": 0.0228842833977489,
-      "avg_yield_5y": 0.022417748024705465,
-      "live_yield_diff_5y": 0.02081098300013418,
-      "live_yield_diff": -0.008909337472979551,
+      "live_yield": 0.022876875384577642,
+      "avg_yield_5y": 0.02241774198248086,
+      "live_yield_diff_5y": 0.020480805000592368,
+      "live_yield_diff": -0.009230169572211238,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "JNJ",
@@ -237,14 +237,14 @@
       "yield_diff_baseline": -0.143067,
       "note": null,
       "asset_category": "주식",
-      "price": 253.39999389648438,
+      "price": 253.27999877929688,
       "live_dividend": 5.36,
-      "live_yield": 0.021152328844134056,
-      "avg_yield_5y": 0.02663721576728726,
-      "live_yield_diff_5y": -0.2059106691581898,
-      "live_yield_diff": -0.22205484206936166,
+      "live_yield": 0.021162350070408037,
+      "avg_yield_5y": 0.026637223853667513,
+      "live_yield_diff_5y": -0.20553469886110803,
+      "live_yield_diff": -0.22168627913173822,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "KO",
@@ -261,14 +261,14 @@
       "yield_diff_baseline": -0.130293,
       "note": null,
       "asset_category": "주식",
-      "price": 91.9000015258789,
+      "price": 92.0,
       "live_dividend": 2.12,
-      "live_yield": 0.02306855239173213,
-      "avg_yield_5y": 0.027744768010353894,
-      "live_yield_diff_5y": -0.16854405186868668,
-      "live_yield_diff": -0.24858135531817174,
+      "live_yield": 0.023043478260869565,
+      "avg_yield_5y": 0.027744743503230723,
+      "live_yield_diff_5y": -0.16944706091132983,
+      "live_yield_diff": -0.24939810225180575,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "LOW",
@@ -285,14 +285,14 @@
       "yield_diff_baseline": 0.340206,
       "note": null,
       "asset_category": "주식",
-      "price": 195.77999877929688,
+      "price": 195.72000122070312,
       "live_dividend": 4.8,
-      "live_yield": 0.024517315506836057,
-      "avg_yield_5y": 0.018568425863163558,
-      "live_yield_diff_5y": 0.32037662683480533,
-      "live_yield_diff": 0.4867989998081295,
+      "live_yield": 0.024524831238823125,
+      "avg_yield_5y": 0.018568430086030263,
+      "live_yield_diff_5y": 0.3207810851642266,
+      "live_yield_diff": 0.4872547749437916,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "LANC",
@@ -316,7 +316,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-10-15T20:10:40Z",
+      "fetched_at": "2026-10-15T22:42:56Z",
       "error": "LANC: missing price or dividend"
     },
     {
@@ -341,7 +341,7 @@
       "live_yield_diff_5y": 0.08196260621900997,
       "live_yield_diff": 0.25574892624791923,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "FMCB",
@@ -365,7 +365,7 @@
       "live_yield_diff_5y": -0.22897100080606736,
       "live_yield_diff": -0.3061203172447753,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ITW",
@@ -382,14 +382,14 @@
       "yield_diff_baseline": -0.158621,
       "note": null,
       "asset_category": "주식",
-      "price": 271.1600036621094,
+      "price": 271.19000244140625,
       "live_dividend": 4.83,
-      "live_yield": 0.017812361464704177,
-      "avg_yield_5y": 0.022570516276478002,
-      "live_yield_diff_5y": -0.2108128477651424,
-      "live_yield_diff": -0.18104085219750907,
+      "live_yield": 0.01781039107827575,
+      "avg_yield_5y": 0.022570514216205255,
+      "live_yield_diff_5y": -0.21090007486456896,
+      "live_yield_diff": -0.181131444676977,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "HRL",
@@ -406,14 +406,14 @@
       "yield_diff_baseline": 1.221711,
       "note": null,
       "asset_category": "주식",
-      "price": 20.18000030517578,
+      "price": 20.190000534057617,
       "live_dividend": 1.172,
-      "live_yield": 0.05807730338336043,
-      "avg_yield_5y": 0.03559933777083009,
-      "live_yield_diff_5y": 0.6314152739927839,
-      "live_yield_diff": 1.6714490976706728,
+      "live_yield": 0.05804853734515782,
+      "avg_yield_5y": 0.035599315306113426,
+      "live_yield_diff_5y": 0.6306082531646113,
+      "live_yield_diff": 1.6701259128407462,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "TR",
@@ -430,14 +430,14 @@
       "yield_diff_baseline": -0.184783,
       "note": null,
       "asset_category": "주식",
-      "price": 38.34000015258789,
+      "price": 38.349998474121094,
       "live_dividend": 0.348,
-      "live_yield": 0.009076682279994997,
-      "avg_yield_5y": 0.009621339175462734,
-      "live_yield_diff_5y": -0.05660926047142937,
-      "live_yield_diff": -0.17783675000045315,
+      "live_yield": 0.009074315876044516,
+      "avg_yield_5y": 0.009621337447535665,
+      "live_yield_diff_5y": -0.056855044787069535,
+      "live_yield_diff": -0.1780510981843735,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ABM",
@@ -454,14 +454,14 @@
       "yield_diff_baseline": 0.326691,
       "note": null,
       "asset_category": "주식",
-      "price": 50.79499816894531,
+      "price": 50.7599983215332,
       "live_dividend": 1.16,
-      "live_yield": 0.022836894218241994,
-      "avg_yield_5y": 0.020880930253357487,
-      "live_yield_diff_5y": 0.09367226177914194,
-      "live_yield_diff": 0.19752984888526448,
+      "live_yield": 0.022852640629578376,
+      "avg_yield_5y": 0.020880951101972866,
+      "live_yield_diff_5y": 0.0944252739243866,
+      "live_yield_diff": 0.1983555652636799,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CWT",
@@ -478,14 +478,14 @@
       "yield_diff_baseline": 0.581495,
       "note": null,
       "asset_category": "주식",
-      "price": 46.029998779296875,
+      "price": 46.04999923706055,
       "live_dividend": 1.34,
-      "live_yield": 0.029111449826991913,
-      "avg_yield_5y": 0.02147093226355859,
-      "live_yield_diff_5y": 0.3558540202001916,
-      "live_yield_diff": 0.5659736324363591,
+      "live_yield": 0.02909880612813523,
+      "avg_yield_5y": 0.021470922866001572,
+      "live_yield_diff_5y": 0.35526573821436125,
+      "live_yield_diff": 0.565293498016957,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "FRT",
@@ -502,14 +502,14 @@
       "yield_diff_baseline": 0.057856,
       "note": null,
       "asset_category": "주식",
-      "price": 105.62000274658203,
+      "price": 105.68000030517578,
       "live_dividend": 4.52,
-      "live_yield": 0.0427949240907047,
-      "avg_yield_5y": 0.039950161994418525,
-      "live_yield_diff_5y": 0.0712077737427853,
-      "live_yield_diff": 0.2136960887891293,
+      "live_yield": 0.04277062818837472,
+      "avg_yield_5y": 0.03995014031558665,
+      "live_yield_diff_5y": 0.07060019941125581,
+      "live_yield_diff": 0.21300703880813152,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SCL",
@@ -526,14 +526,14 @@
       "yield_diff_baseline": 1.255054,
       "note": "배당성향: 적자·실적저점으로 산출불가(기존값 유지)",
       "asset_category": "주식",
-      "price": 61.810001373291016,
+      "price": 61.869998931884766,
       "live_dividend": 1.58,
-      "live_yield": 0.025562206194720143,
-      "avg_yield_5y": 0.019595161269763073,
-      "live_yield_diff_5y": 0.3045162447407211,
-      "live_yield_diff": 0.9877298751726394,
+      "live_yield": 0.02553741760589793,
+      "avg_yield_5y": 0.019595138458574003,
+      "live_yield_diff_5y": 0.3032527256638922,
+      "live_yield_diff": 0.9858023021693568,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SJW",
@@ -557,7 +557,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-10-15T20:10:40Z",
+      "fetched_at": "2026-10-15T22:42:56Z",
       "error": "SJW: missing price or dividend"
     },
     {
@@ -575,14 +575,14 @@
       "yield_diff_baseline": 0.585774,
       "note": null,
       "asset_category": "주식",
-      "price": 92.72000122070312,
+      "price": 92.75,
       "live_dividend": 3.32,
-      "live_yield": 0.03580672946819039,
-      "avg_yield_5y": 0.03493585655614657,
-      "live_yield_diff_5y": 0.024927767568664463,
-      "live_yield_diff": 0.49818951749750584,
+      "live_yield": 0.035795148247978435,
+      "avg_yield_5y": 0.0349358459778573,
+      "live_yield_diff_5y": 0.02459657827280804,
+      "live_yield_diff": 0.4977049476141604,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CBSH",
@@ -606,7 +606,7 @@
       "live_yield_diff_5y": 0.13757576192612753,
       "live_yield_diff": 0.14906649085010232,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "FUL",
@@ -623,14 +623,14 @@
       "yield_diff_baseline": 0.318493,
       "note": null,
       "asset_category": "주식",
-      "price": 51.58000183105469,
+      "price": 51.56999969482422,
       "live_dividend": 0.98,
-      "live_yield": 0.018999611578337964,
-      "avg_yield_5y": 0.012344494889310512,
-      "live_yield_diff_5y": 0.5391161605802379,
-      "live_yield_diff": 0.6266790734878395,
+      "live_yield": 0.01900329660266329,
+      "avg_yield_5y": 0.01234449699984927,
+      "live_yield_diff_5y": 0.5394144129886643,
+      "live_yield_diff": 0.6269945721458298,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "TGT",
@@ -647,14 +647,14 @@
       "yield_diff_baseline": 0.251356,
       "note": null,
       "asset_category": "주식",
-      "price": 156.61000061035156,
+      "price": 156.6300048828125,
       "live_dividend": 4.56,
-      "live_yield": 0.029116914515218986,
-      "avg_yield_5y": 0.030528866673285433,
-      "live_yield_diff_5y": -0.04624974039085402,
-      "live_yield_diff": 0.053052966192368364,
+      "live_yield": 0.029113195798031816,
+      "avg_yield_5y": 0.03052886266504829,
+      "live_yield_diff_5y": -0.04637142505270057,
+      "live_yield_diff": 0.05291847370820306,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MO",
@@ -671,14 +671,14 @@
       "yield_diff_baseline": -0.058275,
       "note": null,
       "asset_category": "주식",
-      "price": 73.83000183105469,
+      "price": 73.83999633789062,
       "live_dividend": 4.24,
-      "live_yield": 0.05742922788627852,
-      "avg_yield_5y": 0.07311683041840125,
-      "live_yield_diff_5y": -0.21455528696132653,
-      "live_yield_diff": -0.10754890619613802,
+      "live_yield": 0.05742145463547735,
+      "avg_yield_5y": 0.07311682337251198,
+      "live_yield_diff_5y": -0.21466152402533464,
+      "live_yield_diff": -0.1076697026343847,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MSA",
@@ -695,14 +695,14 @@
       "yield_diff_baseline": -0.120521,
       "note": null,
       "asset_category": "주식",
-      "price": 181.9320068359375,
+      "price": 181.7899932861328,
       "live_dividend": 2.16,
-      "live_yield": 0.011872567326472924,
-      "avg_yield_5y": 0.011890164426305529,
-      "live_yield_diff_5y": -0.001479971109034767,
-      "live_yield_diff": -0.22654284518091705,
+      "live_yield": 0.01188184212428137,
+      "avg_yield_5y": 0.011890171750456481,
+      "live_yield_diff_5y": -0.0007005471703797385,
+      "live_yield_diff": -0.22593862382531796,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SYY",
@@ -719,14 +719,14 @@
       "yield_diff_baseline": 0.142027,
       "note": null,
       "asset_category": "주식",
-      "price": 82.13999938964844,
+      "price": 82.1500015258789,
       "live_dividend": 2.16,
-      "live_yield": 0.026296567032507316,
-      "avg_yield_5y": 0.026406452656951573,
-      "live_yield_diff_5y": -0.004161317155007171,
-      "live_yield_diff": 0.09205012593468917,
+      "live_yield": 0.026293365305897855,
+      "avg_yield_5y": 0.026406449223062723,
+      "live_yield_diff_5y": -0.004282435559950395,
+      "live_yield_diff": 0.09191716386618995,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "UVV",
@@ -743,14 +743,14 @@
       "yield_diff_baseline": 0.222848,
       "note": "배당성향: 실적저점으로 PER 왜곡(기존값 유지)",
       "asset_category": "주식",
-      "price": 40.439998626708984,
+      "price": 40.43000030517578,
       "live_dividend": 3.28,
-      "live_yield": 0.0811078167998179,
-      "avg_yield_5y": 0.060872165174906,
-      "live_yield_diff_5y": 0.3324286489032901,
-      "live_yield_diff": 0.6312915687815347,
+      "live_yield": 0.08112787472772044,
+      "avg_yield_5y": 0.0608721779390321,
+      "live_yield_diff_5y": 0.3327578784674977,
+      "live_yield_diff": 0.6316949864786895,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BKH",
@@ -767,14 +767,14 @@
       "yield_diff_baseline": 0.125731,
       "note": null,
       "asset_category": "주식",
-      "price": 75.86000061035156,
+      "price": 75.87000274658203,
       "live_dividend": 2.812,
-      "live_yield": 0.037068283382221394,
-      "avg_yield_5y": 0.03899052853879417,
-      "live_yield_diff_5y": -0.049300310321780165,
-      "live_yield_diff": 0.0838679351526723,
+      "live_yield": 0.03706339657575248,
+      "avg_yield_5y": 0.03899052453101582,
+      "live_yield_diff_5y": -0.04942554578178007,
+      "live_yield_diff": 0.08372504607463385,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "GWW",
@@ -791,14 +791,14 @@
       "yield_diff_baseline": -0.513133,
       "note": null,
       "asset_category": "주식",
-      "price": 1331.68994140625,
+      "price": 1331.1700439453125,
       "live_dividend": 9.96,
-      "live_yield": 0.007479218465435243,
-      "avg_yield_5y": 0.00923732067491878,
-      "live_yield_diff_5y": -0.1903259907666891,
-      "live_yield_diff": -0.5208700534634694,
+      "live_yield": 0.007482139524775229,
+      "avg_yield_5y": 0.009237323225754419,
+      "live_yield_diff_5y": -0.1900099907823506,
+      "live_yield_diff": -0.5206829260233677,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "NFG",
@@ -815,14 +815,14 @@
       "yield_diff_baseline": -0.389381,
       "note": null,
       "asset_category": "주식",
-      "price": 78.44000244140625,
+      "price": 78.37999725341797,
       "live_dividend": 1.605,
-      "live_yield": 0.020461498598230106,
-      "avg_yield_5y": 0.029394456867233902,
-      "live_yield_diff_5y": -0.30389941577595175,
-      "live_yield_diff": -0.39641597055368416,
+      "live_yield": 0.02047716325902282,
+      "avg_yield_5y": 0.029394471206617777,
+      "live_yield_diff_5y": -0.30336684354394317,
+      "live_yield_diff": -0.3959538861645186,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "TNC",
@@ -839,14 +839,14 @@
       "yield_diff_baseline": 0.09077,
       "note": null,
       "asset_category": "주식",
-      "price": 66.02999877929688,
+      "price": 66.0,
       "live_dividend": 1.24,
-      "live_yield": 0.01877934307018026,
-      "avg_yield_5y": 0.013600403217299046,
-      "live_yield_diff_5y": 0.3807931110670203,
-      "live_yield_diff": 0.43244417011291086,
+      "live_yield": 0.018787878787878787,
+      "avg_yield_5y": 0.013600408028566888,
+      "live_yield_diff_5y": 0.38142023007073833,
+      "live_yield_diff": 0.43309525460555204,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ABBV",
@@ -863,14 +863,14 @@
       "yield_diff_baseline": -0.185581,
       "note": "배당성향: 실적저점으로 PER 왜곡(기존값 유지)",
       "asset_category": "주식",
-      "price": 283.3500061035156,
+      "price": 283.3999938964844,
       "live_dividend": 6.92,
-      "live_yield": 0.024422092292004156,
-      "avg_yield_5y": 0.03347985470888255,
-      "live_yield_diff_5y": -0.27054365963169125,
-      "live_yield_diff": -0.347874705153427,
+      "live_yield": 0.024417784576691352,
+      "avg_yield_5y": 0.033479849911218815,
+      "live_yield_diff_5y": -0.27067222100929555,
+      "live_yield_diff": -0.34798973092946983,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ABT",
@@ -887,14 +887,14 @@
       "yield_diff_baseline": 0.008969,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 104.69000244140625,
+      "price": 104.68000030517578,
       "live_dividend": 2.36,
-      "live_yield": 0.022542744722170237,
-      "avg_yield_5y": 0.018549618542930114,
-      "live_yield_diff_5y": 0.21526729350248755,
-      "live_yield_diff": 0.26360676693779345,
+      "live_yield": 0.022544898673288526,
+      "avg_yield_5y": 0.018549620354018942,
+      "live_yield_diff_5y": 0.21538329318982377,
+      "live_yield_diff": 0.26372750410810114,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BDX",
@@ -911,14 +911,14 @@
       "yield_diff_baseline": 1.039801,
       "note": null,
       "asset_category": "주식",
-      "price": 193.77000427246094,
+      "price": 193.75999450683594,
       "live_dividend": 4.2,
-      "live_yield": 0.021675181438786367,
-      "avg_yield_5y": 0.01708548188616344,
-      "live_yield_diff_5y": 0.2686315541582624,
-      "live_yield_diff": 0.5405246225150226,
+      "live_yield": 0.021676301192565438,
+      "avg_yield_5y": 0.017085483070077876,
+      "live_yield_diff_5y": 0.2686970045656799,
+      "live_yield_diff": 0.5406042070053617,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CDUAF",
@@ -942,7 +942,7 @@
       "live_yield_diff_5y": -0.12522216362703625,
       "live_yield_diff": -0.21879088306700856,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "KMB",
@@ -966,7 +966,7 @@
       "live_yield_diff_5y": 0.3250767736875193,
       "live_yield_diff": 0.4863340050906747,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PEP",
@@ -990,7 +990,7 @@
       "live_yield_diff_5y": 0.4879870326861351,
       "live_yield_diff": 0.6277126712097757,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PPG",
@@ -1007,14 +1007,14 @@
       "yield_diff_baseline": 0.44593,
       "note": null,
       "asset_category": "주식",
-      "price": 107.79000091552734,
+      "price": 107.80999755859375,
       "live_dividend": 2.84,
-      "live_yield": 0.026347527376176995,
-      "avg_yield_5y": 0.02050384132611326,
-      "live_yield_diff_5y": 0.28500445146448433,
-      "live_yield_diff": 0.6007003266207167,
+      "live_yield": 0.02634264042587039,
+      "avg_yield_5y": 0.020503837857233694,
+      "live_yield_diff_5y": 0.28476632566506493,
+      "live_yield_diff": 0.6004034280601697,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "GRC",
@@ -1031,14 +1031,14 @@
       "yield_diff_baseline": -0.573379,
       "note": null,
       "asset_category": "주식",
-      "price": 72.30500030517578,
+      "price": 72.13999938964844,
       "live_dividend": 0.76,
-      "live_yield": 0.01051102962163458,
-      "avg_yield_5y": 0.018497082542090326,
-      "live_yield_diff_5y": -0.4317466228678706,
-      "live_yield_diff": -0.5515772345719036,
+      "live_yield": 0.01053507078500273,
+      "avg_yield_5y": 0.018497101133905434,
+      "live_yield_diff_5y": -0.43044746802558137,
+      "live_yield_diff": -0.550551587670532,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MSEX",
@@ -1062,7 +1062,7 @@
       "live_yield_diff_5y": 0.29658122965157735,
       "live_yield_diff": 0.36510988316402954,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "NUE",
@@ -1079,14 +1079,14 @@
       "yield_diff_baseline": -0.626623,
       "note": null,
       "asset_category": "주식",
-      "price": 254.63999938964844,
+      "price": 254.69000244140625,
       "live_dividend": 1.68,
-      "live_yield": 0.006597549497434906,
-      "avg_yield_5y": 0.013216101165463751,
-      "live_yield_diff_5y": -0.5007945675631185,
-      "live_yield_diff": -0.6429897458097994,
+      "live_yield": 0.006596254206666393,
+      "avg_yield_5y": 0.013216099399473925,
+      "live_yield_diff_5y": -0.5008925094094736,
+      "live_yield_diff": -0.6430598373016021,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SPGI",
@@ -1103,14 +1103,14 @@
       "yield_diff_baseline": -0.018595,
       "note": null,
       "asset_category": "주식",
-      "price": 424.8399963378906,
+      "price": 424.80999755859375,
       "live_dividend": 3.88,
-      "live_yield": 0.009132850092847885,
-      "avg_yield_5y": 0.00814651741831324,
-      "live_yield_diff_5y": 0.12107415032555931,
-      "live_yield_diff": -0.05652375073885477,
+      "live_yield": 0.009133495026714464,
+      "avg_yield_5y": 0.008146517901300176,
+      "live_yield_diff_5y": 0.12115325067373482,
+      "live_yield_diff": -0.0564571253394148,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "WMT",
@@ -1134,7 +1134,7 @@
       "live_yield_diff_5y": -0.28325846851252273,
       "live_yield_diff": -0.5591382196887078,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ED",
@@ -1151,14 +1151,14 @@
       "yield_diff_baseline": -0.088163,
       "note": null,
       "asset_category": "주식",
-      "price": 109.8499984741211,
+      "price": 109.86000061035156,
       "live_dividend": 3.552,
-      "live_yield": 0.032335002724982236,
-      "avg_yield_5y": 0.03250781098471281,
-      "live_yield_diff_5y": -0.005315899609845739,
-      "live_yield_diff": -0.11191972741054003,
+      "live_yield": 0.03233205880453375,
+      "avg_yield_5y": 0.032507808690751795,
+      "live_yield_diff_5y": -0.005406389827440003,
+      "live_yield_diff": -0.11200058213310214,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ADM",
@@ -1182,7 +1182,7 @@
       "live_yield_diff_5y": -0.06694839877035284,
       "live_yield_diff": -0.11622995579970014,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ADP",
@@ -1206,7 +1206,7 @@
       "live_yield_diff_5y": 0.11912080871595088,
       "live_yield_diff": 0.181407281081781,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MCD",
@@ -1223,14 +1223,14 @@
       "yield_diff_baseline": 0.140572,
       "note": null,
       "asset_category": "주식",
-      "price": 242.52000427246094,
+      "price": 242.5,
       "live_dividend": 7.44,
-      "live_yield": 0.030677881696066094,
-      "avg_yield_5y": 0.02233802347306748,
-      "live_yield_diff_5y": 0.37334808216375187,
-      "live_yield_diff": 0.2911566370398188,
+      "live_yield": 0.030680412371134023,
+      "avg_yield_5y": 0.022338024850852883,
+      "live_yield_diff_5y": 0.3734612874675275,
+      "live_yield_diff": 0.29126314693325017,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MDT",
@@ -1247,14 +1247,14 @@
       "yield_diff_baseline": 0.43882,
       "note": null,
       "asset_category": "주식",
-      "price": 95.47000122070312,
+      "price": 95.44999694824219,
       "live_dividend": 2.84,
-      "live_yield": 0.029747564299644445,
-      "avg_yield_5y": 0.03007912730967415,
-      "live_yield_diff_5y": -0.01102302625392552,
-      "live_yield_diff": 0.18563428854700853,
+      "live_yield": 0.029753798751193165,
+      "avg_yield_5y": 0.03007913289016101,
+      "live_yield_diff_5y": -0.01081594140881176,
+      "live_yield_diff": 0.18588277206828072,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PNR",
@@ -1271,14 +1271,14 @@
       "yield_diff_baseline": -0.236388,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 53.439998626708984,
+      "price": 53.45000076293945,
       "live_dividend": 1.0,
-      "live_yield": 0.018712575331171623,
-      "avg_yield_5y": 0.012442957366812656,
-      "live_yield_diff_5y": 0.503868797387431,
-      "live_yield_diff": 0.24253488254791652,
+      "live_yield": 0.018709073633790638,
+      "avg_yield_5y": 0.01244295603608154,
+      "live_yield_diff_5y": 0.5035875381652787,
+      "live_yield_diff": 0.24230236612155626,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CLX",
@@ -1295,14 +1295,14 @@
       "yield_diff_baseline": 0.969981,
       "note": "배당성향: 적자·실적저점으로 산출불가(기존값 유지)",
       "asset_category": "주식",
-      "price": 86.19000244140625,
+      "price": 86.19999694824219,
       "live_dividend": 4.96,
-      "live_yield": 0.0575472776366599,
-      "avg_yield_5y": 0.03428610628829361,
-      "live_yield_diff_5y": 0.6784430740771638,
-      "live_yield_diff": 1.1593725191992457,
+      "live_yield": 0.05754060528538273,
+      "avg_yield_5y": 0.03428610257492922,
+      "live_yield_diff_5y": 0.6782486478197068,
+      "live_yield_diff": 1.1591221495453183,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SHW",
@@ -1319,14 +1319,14 @@
       "yield_diff_baseline": 0.145475,
       "note": null,
       "asset_category": "주식",
-      "price": 336.9599914550781,
+      "price": 336.9200134277344,
       "live_dividend": 3.2,
-      "live_yield": 0.00949667640416773,
-      "avg_yield_5y": 0.008812695915835746,
-      "live_yield_diff_5y": 0.07761308172484678,
-      "live_yield_diff": 0.08782089394819355,
+      "live_yield": 0.009497803254380923,
+      "avg_yield_5y": 0.008812696788782362,
+      "live_yield_diff_5y": 0.07774084165367287,
+      "live_yield_diff": 0.08794997186493969,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BEN",
@@ -1343,14 +1343,14 @@
       "yield_diff_baseline": -0.144184,
       "note": null,
       "asset_category": "주식",
-      "price": 31.364999771118164,
+      "price": 31.3799991607666,
       "live_dividend": 1.32,
-      "live_yield": 0.04208512704073079,
-      "avg_yield_5y": 0.04705712818187095,
-      "live_yield_diff_5y": -0.10565883072855389,
-      "live_yield_diff": -0.06932492169989421,
+      "live_yield": 0.04206501068522504,
+      "avg_yield_5y": 0.04705711145264451,
+      "live_yield_diff_5y": -0.10608600088943458,
+      "live_yield_diff": -0.06976977697423617,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "AFL",
@@ -1367,14 +1367,14 @@
       "yield_diff_baseline": -0.067265,
       "note": null,
       "asset_category": "주식",
-      "price": 118.04000091552734,
+      "price": 118.05000305175781,
       "live_dividend": 2.44,
-      "live_yield": 0.020670958836624634,
-      "avg_yield_5y": 0.02154644170366383,
-      "live_yield_diff_5y": -0.040632364224220265,
-      "live_yield_diff": -0.07305117324553213,
+      "live_yield": 0.0206692074283997,
+      "avg_yield_5y": 0.021546440313120856,
+      "live_yield_diff_5y": -0.04071358757979892,
+      "live_yield_diff": -0.07312971173095519,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "APD",
@@ -1391,14 +1391,14 @@
       "yield_diff_baseline": 0.129744,
       "note": null,
       "asset_category": "주식",
-      "price": 296.3299865722656,
+      "price": 296.6000061035156,
       "live_dividend": 7.24,
-      "live_yield": 0.02443222194198828,
-      "avg_yield_5y": 0.023932639720155267,
-      "live_yield_diff_5y": 0.020874513955611875,
-      "live_yield_diff": 0.07820926487150397,
+      "live_yield": 0.02440997926841979,
+      "avg_yield_5y": 0.023932615957073185,
+      "live_yield_diff_5y": 0.019946140121198223,
+      "live_yield_diff": 0.07722768174844626,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CTAS",
@@ -1422,7 +1422,7 @@
       "live_yield_diff_5y": -0.0483231696063056,
       "live_yield_diff": -0.14055701806052925,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "XOM",
@@ -1439,14 +1439,14 @@
       "yield_diff_baseline": -0.332146,
       "note": null,
       "asset_category": "주식",
-      "price": 174.64999389648438,
+      "price": 174.67999267578125,
       "live_dividend": 4.12,
-      "live_yield": 0.02359003804169577,
-      "avg_yield_5y": 0.032557621757716065,
-      "live_yield_diff_5y": -0.275437308743075,
-      "live_yield_diff": -0.4748433205321512,
+      "live_yield": 0.023585986791555567,
+      "avg_yield_5y": 0.032557617691010274,
+      "live_yield_diff_5y": -0.27556165148815326,
+      "live_yield_diff": -0.4749335086474718,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "AMCR",
@@ -1470,7 +1470,7 @@
       "live_yield_diff_5y": -0.7583030548261758,
       "live_yield_diff": -0.7148005892749068,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ATO",
@@ -1487,14 +1487,14 @@
       "yield_diff_baseline": 0.007719,
       "note": null,
       "asset_category": "주식",
-      "price": 163.93499755859375,
+      "price": 163.9499969482422,
       "live_dividend": 4.0,
-      "live_yield": 0.024399914963675266,
-      "avg_yield_5y": 0.023454691565361053,
-      "live_yield_diff_5y": 0.04029997135882878,
-      "live_yield_diff": 0.046308531890019974,
+      "live_yield": 0.024397682674326432,
+      "avg_yield_5y": 0.023454690068223878,
+      "live_yield_diff_5y": 0.04020486322179581,
+      "live_yield_diff": 0.046212807646931024,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BF.B",
@@ -1518,7 +1518,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-10-15T20:10:40Z",
+      "fetched_at": "2026-10-15T22:42:56Z",
       "error": "BF.B: missing price or dividend"
     },
     {
@@ -1543,7 +1543,7 @@
       "live_yield_diff_5y": 0.20039631750642764,
       "live_yield_diff": 0.43689710327282594,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CAH",
@@ -1560,14 +1560,14 @@
       "yield_diff_baseline": -0.638889,
       "note": null,
       "asset_category": "주식",
-      "price": 253.6300048828125,
+      "price": 253.7100067138672,
       "live_dividend": 2.044,
-      "live_yield": 0.008058983403578027,
-      "avg_yield_5y": 0.01820373877689123,
-      "live_yield_diff_5y": -0.5572896588799374,
-      "live_yield_diff": -0.7201741873757629,
+      "live_yield": 0.008056442181664568,
+      "avg_yield_5y": 0.018203735340267792,
+      "live_yield_diff_5y": -0.557429174228697,
+      "live_yield_diff": -0.720262424247758,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CVX",
@@ -1584,14 +1584,14 @@
       "yield_diff_baseline": -0.029815,
       "note": null,
       "asset_category": "주식",
-      "price": 219.38999938964844,
+      "price": 219.32000732421875,
       "live_dividend": 7.12,
-      "live_yield": 0.03245362149509148,
-      "avg_yield_5y": 0.03788321699360526,
-      "live_yield_diff_5y": -0.14332456241586625,
-      "live_yield_diff": -0.23204871048056136,
+      "live_yield": 0.032463978489087726,
+      "avg_yield_5y": 0.037883227465097015,
+      "live_yield_diff_5y": -0.14305140661529459,
+      "live_yield_diff": -0.23180363253460182,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MKC",
@@ -1608,14 +1608,14 @@
       "yield_diff_baseline": 0.246475,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 45.720001220703125,
+      "price": 45.709999084472656,
       "live_dividend": 1.8,
-      "live_yield": 0.039370077688994386,
-      "avg_yield_5y": 0.0223830038681155,
-      "live_yield_diff_5y": 0.7589273504561602,
-      "live_yield_diff": 1.220534556626869,
+      "live_yield": 0.03937869254106913,
+      "avg_yield_5y": 0.022383008800205308,
+      "live_yield_diff_5y": 0.7593118464354054,
+      "live_yield_diff": 1.2210204478888398,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "GD",
@@ -1632,14 +1632,14 @@
       "yield_diff_baseline": -0.1292,
       "note": null,
       "asset_category": "주식",
-      "price": 337.0450134277344,
+      "price": 337.0299987792969,
       "live_dividend": 6.36,
-      "live_yield": 0.018869883091635307,
-      "avg_yield_5y": 0.020292976625205204,
-      "live_yield_diff_5y": -0.07012739234136414,
-      "live_yield_diff": -0.10696246608446247,
+      "live_yield": 0.018870723742799016,
+      "avg_yield_5y": 0.02029297737977598,
+      "live_yield_diff_5y": -0.07008600119933049,
+      "live_yield_diff": -0.10692268136303756,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CB",
@@ -1656,14 +1656,14 @@
       "yield_diff_baseline": -0.66286,
       "note": null,
       "asset_category": "주식",
-      "price": 352.79998779296875,
+      "price": 352.7900085449219,
       "live_dividend": 2.04,
-      "live_yield": 0.005782313125240581,
-      "avg_yield_5y": 0.012408345118943976,
-      "live_yield_diff_5y": -0.5339980416556394,
-      "live_yield_diff": -0.6855729676323773,
+      "live_yield": 0.005782476687517187,
+      "avg_yield_5y": 0.012408345395106712,
+      "live_yield_diff_5y": -0.5339848703923463,
+      "live_yield_diff": -0.6855640735444705,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ECL",
@@ -1680,14 +1680,14 @@
       "yield_diff_baseline": 0.01476,
       "note": null,
       "asset_category": "주식",
-      "price": 290.6499938964844,
+      "price": 290.80999755859375,
       "live_dividend": 2.92,
-      "live_yield": 0.010046447828380014,
-      "avg_yield_5y": 0.010651965456260588,
-      "live_yield_diff_5y": -0.05684562444057559,
-      "live_yield_diff": -0.07320591989114268,
+      "live_yield": 0.010040920272734656,
+      "avg_yield_5y": 0.010651960769218627,
+      "live_yield_diff_5y": -0.05736413320726051,
+      "live_yield_diff": -0.07371584199864802,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "LIN",
@@ -1711,7 +1711,7 @@
       "live_yield_diff_5y": 0.0031858193588303824,
       "live_yield_diff": -0.28585834324444276,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ROP",
@@ -1735,7 +1735,7 @@
       "live_yield_diff_5y": 0.42865605044310334,
       "live_yield_diff": 0.7431471967264073,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "WST",
@@ -1752,14 +1752,14 @@
       "yield_diff_baseline": -0.328358,
       "note": null,
       "asset_category": "주식",
-      "price": 383.25,
+      "price": 383.0199890136719,
       "live_dividend": 0.88,
-      "live_yield": 0.0022961513372472277,
-      "avg_yield_5y": 0.00249634767533447,
-      "live_yield_diff_5y": -0.08019569552162613,
-      "live_yield_diff": -0.4288180753116349,
+      "live_yield": 0.0022975302209843375,
+      "avg_yield_5y": 0.0024963493016321473,
+      "live_yield_diff_5y": -0.07964393465202134,
+      "live_yield_diff": -0.42847506940688124,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "AOS",
@@ -1776,14 +1776,14 @@
       "yield_diff_baseline": 0.628838,
       "note": null,
       "asset_category": "주식",
-      "price": 59.459999084472656,
+      "price": 59.470001220703125,
       "live_dividend": 1.44,
-      "live_yield": 0.024217962027786855,
-      "avg_yield_5y": 0.017853234550257314,
-      "live_yield_diff_5y": 0.3565027647854325,
-      "live_yield_diff": 0.6166863836973868,
+      "live_yield": 0.0242138888589546,
+      "avg_yield_5y": 0.017853231872612604,
+      "live_yield_diff_5y": 0.356274820812664,
+      "live_yield_diff": 0.6164144765657277,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BRO",
@@ -1800,14 +1800,14 @@
       "yield_diff_baseline": 0.219512,
       "note": null,
       "asset_category": "주식",
-      "price": 68.00499725341797,
+      "price": 67.9800033569336,
       "live_dividend": 0.66,
-      "live_yield": 0.009705169129564638,
-      "avg_yield_5y": 0.006646633868055582,
-      "live_yield_diff_5y": 0.4601630422594355,
-      "live_yield_diff": 0.07596110083865165,
+      "live_yield": 0.009708737384648622,
+      "avg_yield_5y": 0.0066466366498786535,
+      "live_yield_diff_5y": 0.46069928236950836,
+      "live_yield_diff": 0.07635669452867207,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CAT",
@@ -1824,14 +1824,14 @@
       "yield_diff_baseline": -0.752066,
       "note": null,
       "asset_category": "주식",
-      "price": 735.5,
+      "price": 735.6400146484375,
       "live_dividend": 6.04,
-      "live_yield": 0.008212100611828688,
-      "avg_yield_5y": 0.015551643986483427,
-      "live_yield_diff_5y": -0.4719464630899368,
-      "live_yield_diff": -0.6606569995112113,
+      "live_yield": 0.008210537599543872,
+      "avg_yield_5y": 0.015551642977401229,
+      "live_yield_diff_5y": -0.47204693346709653,
+      "live_yield_diff": -0.6607215867957078,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ESS",
@@ -1848,14 +1848,14 @@
       "yield_diff_baseline": 0.18468,
       "note": null,
       "asset_category": "주식",
-      "price": 269.70001220703125,
+      "price": 269.6600036621094,
       "live_dividend": 10.36,
-      "live_yield": 0.038413049800113834,
-      "avg_yield_5y": 0.0350333766110638,
-      "live_yield_diff_5y": 0.09647009554833222,
-      "live_yield_diff": 0.24677214541102996,
+      "live_yield": 0.03841874901470867,
+      "avg_yield_5y": 0.035033382389135496,
+      "live_yield_diff_5y": 0.0966325942488224,
+      "live_yield_diff": 0.24695712478768797,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "IBM",
@@ -1872,14 +1872,14 @@
       "yield_diff_baseline": -0.342802,
       "note": null,
       "asset_category": "주식",
-      "price": 234.11000061035156,
+      "price": 234.1199951171875,
       "live_dividend": 6.76,
-      "live_yield": 0.028875314947571253,
-      "avg_yield_5y": 0.03533454033503075,
-      "live_yield_diff_5y": -0.18280202108801188,
-      "live_yield_diff": -0.30487927425201605,
+      "live_yield": 0.028874082269719503,
+      "avg_yield_5y": 0.03533453952780436,
+      "live_yield_diff_5y": -0.18283688833701076,
+      "live_yield_diff": -0.3049089487308738,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ALB",
@@ -1903,7 +1903,7 @@
       "live_yield_diff_5y": 0.442223528464843,
       "live_yield_diff": 0.20792866104873442,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "EXPD",
@@ -1920,14 +1920,14 @@
       "yield_diff_baseline": -0.246309,
       "note": null,
       "asset_category": "주식",
-      "price": 198.5800018310547,
+      "price": 198.63999938964844,
       "live_dividend": 1.62,
-      "live_yield": 0.008157921165587674,
-      "avg_yield_5y": 0.010929123518653373,
-      "live_yield_diff_5y": -0.2535612621026678,
-      "live_yield_diff": -0.36612889156272926,
+      "live_yield": 0.00815545713339557,
+      "avg_yield_5y": 0.010929121711047018,
+      "live_yield_diff_5y": -0.25378659429218936,
+      "live_yield_diff": -0.3663203470555112,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CHD",
@@ -1944,14 +1944,14 @@
       "yield_diff_baseline": -0.025522,
       "note": null,
       "asset_category": "주식",
-      "price": 103.0999984741211,
+      "price": 103.08000183105469,
       "live_dividend": 1.232,
-      "live_yield": 0.011949563707406278,
-      "avg_yield_5y": 0.011316004386701491,
-      "live_yield_diff_5y": 0.055987899885346616,
-      "live_yield_diff": -0.07582647274506751,
+      "live_yield": 0.011951881821065685,
+      "avg_yield_5y": 0.011316006380792502,
+      "live_yield_diff_5y": 0.05619256642984067,
+      "live_yield_diff": -0.07564719094619608,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "NEE",
@@ -1968,14 +1968,14 @@
       "yield_diff_baseline": 0.170213,
       "note": null,
       "asset_category": "주식",
-      "price": 78.96499633789062,
+      "price": 78.95999908447266,
       "live_dividend": 2.492,
-      "live_yield": 0.03155828677983787,
-      "avg_yield_5y": 0.025765267679925007,
-      "live_yield_diff_5y": 0.22483830449106856,
-      "live_yield_diff": 0.2912555965563778,
+      "live_yield": 0.031560284053879215,
+      "avg_yield_5y": 0.025765268915984657,
+      "live_yield_diff_5y": 0.22491576380556835,
+      "live_yield_diff": 0.2913373180801643,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "O",
@@ -1992,14 +1992,14 @@
       "yield_diff_baseline": 0.211096,
       "note": "배당성향: 실적저점으로 PER 왜곡(기존값 유지)",
       "asset_category": "주식",
-      "price": 55.55500030517578,
+      "price": 55.54999923706055,
       "live_dividend": 3.252,
-      "live_yield": 0.05853658504429937,
-      "avg_yield_5y": 0.049596323848944246,
-      "live_yield_diff_5y": 0.18026056170180113,
-      "live_yield_diff": 0.3201755761005723,
+      "live_yield": 0.05854185498944898,
+      "avg_yield_5y": 0.049596327077124254,
+      "live_yield_diff_5y": 0.1803667416422606,
+      "live_yield_diff": 0.3202944291711543,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SJM",
@@ -2016,14 +2016,14 @@
       "yield_diff_baseline": 0.394313,
       "note": "배당성향: 적자·실적저점으로 산출불가(기존값 유지)",
       "asset_category": "주식",
-      "price": 125.94999694824219,
+      "price": 125.93000030517578,
       "live_dividend": 4.4,
-      "live_yield": 0.03493449866305383,
-      "avg_yield_5y": 0.033137375690142426,
-      "live_yield_diff_5y": 0.05423250741747795,
-      "live_yield_diff": 0.19679680243418388,
+      "live_yield": 0.03494004597266056,
+      "avg_yield_5y": 0.03313738126658326,
+      "live_yield_diff_5y": 0.054399733387959594,
+      "live_yield_diff": 0.1969868438732634,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "CHRW",
@@ -2047,7 +2047,7 @@
       "live_yield_diff_5y": -0.18907303195210892,
       "live_yield_diff": -0.255021195338135,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "TTC",
@@ -2064,14 +2064,14 @@
       "yield_diff_baseline": 0.613406,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 100.91000366210938,
+      "price": 100.81999969482422,
       "live_dividend": 1.52,
-      "live_yield": 0.015062926814368393,
-      "avg_yield_5y": 0.015350837237098843,
-      "live_yield_diff_5y": -0.018755356355068906,
-      "live_yield_diff": 0.1740395022890408,
+      "live_yield": 0.015076373781005199,
+      "avg_yield_5y": 0.015350849142289374,
+      "live_yield_diff_5y": -0.01788014192179349,
+      "live_yield_diff": 0.17508759010173025,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "COST",
@@ -2095,7 +2095,7 @@
       "live_yield_diff_5y": -0.476037753402519,
       "live_yield_diff": -0.7424075233893301,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MSFT",
@@ -2119,7 +2119,7 @@
       "live_yield_diff_5y": -0.14070689019323168,
       "live_yield_diff": -0.5038427672916208,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "WSM",
@@ -2136,14 +2136,14 @@
       "yield_diff_baseline": -0.364462,
       "note": null,
       "asset_category": "주식",
-      "price": 251.97500610351562,
+      "price": 252.02999877929688,
       "live_dividend": 3.04,
-      "live_yield": 0.01206468866499845,
-      "avg_yield_5y": 0.0174008726551223,
-      "live_yield_diff_5y": -0.3066618609241438,
-      "live_yield_diff": -0.4783965125378967,
+      "live_yield": 0.01206205616285438,
+      "avg_yield_5y": 0.01740086994968148,
+      "live_yield_diff_5y": -0.30681303878860516,
+      "live_yield_diff": -0.4785103258601651,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "KR",
@@ -2160,14 +2160,14 @@
       "yield_diff_baseline": 0.042911,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 62.71500015258789,
+      "price": 62.709999084472656,
       "live_dividend": 1.28,
-      "live_yield": 0.02040979027163698,
-      "avg_yield_5y": 0.020560191905821472,
-      "live_yield_diff_5y": -0.007315186301442346,
-      "live_yield_diff": 0.10862521844850524,
+      "live_yield": 0.020411417934734673,
+      "avg_yield_5y": 0.020560193273993447,
+      "live_yield_diff_5y": -0.00723608661047753,
+      "live_yield_diff": 0.10871363034952056,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MCK",
@@ -2184,14 +2184,14 @@
       "yield_diff_baseline": -0.435173,
       "note": null,
       "asset_category": "주식",
-      "price": 999.1099853515625,
+      "price": 998.6400146484375,
       "live_dividend": 3.28,
-      "live_yield": 0.0032829218485348715,
-      "avg_yield_5y": 0.004812509806392461,
-      "live_yield_diff_5y": -0.31783581112413245,
-      "live_yield_diff": -0.5785722915873078,
+      "live_yield": 0.003284466826772103,
+      "avg_yield_5y": 0.004812511488168422,
+      "live_yield_diff_5y": -0.31751501584007075,
+      "live_yield_diff": -0.5783739631871498,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BLK",
@@ -2208,14 +2208,14 @@
       "yield_diff_baseline": -0.03895,
       "note": null,
       "asset_category": "주식",
-      "price": 1121.06005859375,
+      "price": 1120.780029296875,
       "live_dividend": 22.92,
-      "live_yield": 0.02044493497409112,
-      "avg_yield_5y": 0.023416411217444092,
-      "live_yield_diff_5y": -0.1268971669381756,
-      "live_yield_diff": -0.1344227360672683,
+      "live_yield": 0.02045004318499406,
+      "avg_yield_5y": 0.023416415538783302,
+      "live_yield_diff_5y": -0.12667918148600524,
+      "live_yield_diff": -0.13420646972929465,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "HD",
@@ -2232,14 +2232,14 @@
       "yield_diff_baseline": 0.329319,
       "note": null,
       "asset_category": "주식",
-      "price": 308.2699890136719,
+      "price": 308.239990234375,
       "live_dividend": 9.32,
-      "live_yield": 0.030233238174821667,
-      "avg_yield_5y": 0.024210898523501213,
-      "live_yield_diff_5y": 0.24874498753008464,
-      "live_yield_diff": 0.4003352558972517,
+      "live_yield": 0.030236180558250718,
+      "avg_yield_5y": 0.024210900395408158,
+      "live_yield_diff_5y": 0.2488664223320383,
+      "live_yield_diff": 0.40047154044699934,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MCO",
@@ -2256,14 +2256,14 @@
       "yield_diff_baseline": -0.208984,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 483.7099914550781,
+      "price": 483.69000244140625,
       "live_dividend": 3.76,
-      "live_yield": 0.007773252706005328,
-      "avg_yield_5y": 0.008199142927672131,
-      "live_yield_diff_5y": -0.05194326107298643,
-      "live_yield_diff": -0.2408932904291673,
+      "live_yield": 0.0077735739440996255,
+      "avg_yield_5y": 0.00819914321167283,
+      "live_yield_diff_5y": -0.05190411444055959,
+      "live_yield_diff": -0.240861919521521,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MKTX",
@@ -2287,7 +2287,7 @@
       "live_yield_diff_5y": 0.4704738600728588,
       "live_yield_diff": 1.377831574163344,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "UNH",
@@ -2304,14 +2304,14 @@
       "yield_diff_baseline": 0.564528,
       "note": null,
       "asset_category": "주식",
-      "price": 406.7200012207031,
+      "price": 406.6700134277344,
       "live_dividend": 9.28,
-      "live_yield": 0.022816679711220512,
-      "avg_yield_5y": 0.016885439183526963,
-      "live_yield_diff_5y": 0.3512636220608303,
-      "live_yield_diff": 0.6450381911478379,
+      "live_yield": 0.022819484332717008,
+      "avg_yield_5y": 0.016885441866735216,
+      "live_yield_diff_5y": 0.3514295043514389,
+      "live_yield_diff": 0.645240398898126,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "AVGO",
@@ -2335,7 +2335,7 @@
       "live_yield_diff_5y": -0.5497211410823855,
       "live_yield_diff": -0.6574003522093659,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "BBY",
@@ -2359,7 +2359,7 @@
       "live_yield_diff_5y": -0.10574322718998796,
       "live_yield_diff": 0.17031771103591545,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "HPQ",
@@ -2383,7 +2383,7 @@
       "live_yield_diff_5y": 0.038423338058336226,
       "live_yield_diff": 0.21805300069591124,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "INTU",
@@ -2407,7 +2407,7 @@
       "live_yield_diff_5y": 0.6185620140020573,
       "live_yield_diff": 0.6980551760260105,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "LFUS",
@@ -2431,7 +2431,7 @@
       "live_yield_diff_5y": -0.20361808955362162,
       "live_yield_diff": -0.1416612268567951,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "POOL",
@@ -2455,7 +2455,7 @@
       "live_yield_diff_5y": 1.026204576563856,
       "live_yield_diff": 1.7056448648355873,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SBUX",
@@ -2479,7 +2479,7 @@
       "live_yield_diff_5y": 0.0858932084405394,
       "live_yield_diff": 0.3853574024270432,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "TSCO",
@@ -2503,7 +2503,7 @@
       "live_yield_diff_5y": 0.5592301916042898,
       "live_yield_diff": 1.0331618172390662,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "AMGN",
@@ -2527,7 +2527,7 @@
       "live_yield_diff_5y": -0.21493232668938178,
       "live_yield_diff": -0.16248823810284393,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "FNF",
@@ -2551,7 +2551,7 @@
       "live_yield_diff_5y": 0.3683701715769267,
       "live_yield_diff": 0.7745211386444318,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "TSN",
@@ -2568,14 +2568,14 @@
       "yield_diff_baseline": 0.463081,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 54.04999923706055,
+      "price": 54.040000915527344,
       "live_dividend": 2.0,
-      "live_yield": 0.037002775730451014,
-      "avg_yield_5y": 0.03062097479783048,
-      "live_yield_diff_5y": 0.2084127293384758,
-      "live_yield_diff": 0.6865440168847317,
+      "live_yield": 0.03700962187484603,
+      "avg_yield_5y": 0.030620979122569884,
+      "live_yield_diff_5y": 0.20863613559526092,
+      "live_yield_diff": 0.6868560562828636,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "AMT",
@@ -2592,14 +2592,14 @@
       "yield_diff_baseline": 0.401246,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 181.3000030517578,
+      "price": 181.36000061035156,
       "live_dividend": 6.8,
-      "live_yield": 0.03750689401841171,
-      "avg_yield_5y": 0.030738853766761432,
-      "live_yield_diff_5y": 0.22017868014872763,
-      "live_yield_diff": 0.6684561396090618,
+      "live_yield": 0.03749448597880008,
+      "avg_yield_5y": 0.030738843358227724,
+      "live_yield_diff_5y": 0.21977543337732977,
+      "live_yield_diff": 0.6679041805516048,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "NKE",
@@ -2616,14 +2616,14 @@
       "yield_diff_baseline": 1.269058,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 37.15999984741211,
+      "price": 37.13999938964844,
       "live_dividend": 1.6,
-      "live_yield": 0.04305705076883705,
-      "avg_yield_5y": 0.01797164774791717,
-      "live_yield_diff_5y": 1.3958321113781658,
-      "live_yield_diff": 2.861618903034713,
+      "live_yield": 0.04308023764927545,
+      "avg_yield_5y": 0.01797165882025146,
+      "live_yield_diff_5y": 1.3971208267502975,
+      "live_yield_diff": 2.8636984438812063,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "JPM",
@@ -2640,14 +2640,14 @@
       "yield_diff_baseline": -0.197995,
       "note": null,
       "asset_category": "주식",
-      "price": 335.57000732421875,
+      "price": 335.5299987792969,
       "live_dividend": 6.0,
-      "live_yield": 0.017880024641782007,
-      "avg_yield_5y": 0.024132697504661293,
-      "live_yield_diff_5y": -0.2590954807961922,
-      "live_yield_diff": -0.253131802765998,
+      "live_yield": 0.017882156653142207,
+      "avg_yield_5y": 0.0241326998975721,
+      "live_yield_diff_5y": -0.25900720893059864,
+      "live_yield_diff": -0.25304274631820356,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DKS",
@@ -2664,14 +2664,14 @@
       "yield_diff_baseline": -0.101531,
       "note": null,
       "asset_category": "주식",
-      "price": 140.8800048828125,
+      "price": 140.83999633789062,
       "live_dividend": 5.0,
-      "live_yield": 0.035491196952748015,
-      "avg_yield_5y": 0.022754044231144317,
-      "live_yield_diff_5y": 0.5597753345389862,
-      "live_yield_diff": 0.42994347110185405,
+      "live_yield": 0.03550127896911081,
+      "avg_yield_5y": 0.022754048165720693,
+      "live_yield_diff_5y": 0.5602181515372727,
+      "live_yield_diff": 0.4303496764347628,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "MSCI",
@@ -2688,14 +2688,14 @@
       "yield_diff_baseline": 0.293882,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 574.9450073242188,
+      "price": 575.0900268554688,
       "live_dividend": 7.2,
-      "live_yield": 0.012522936817050799,
-      "avg_yield_5y": 0.011121713180027078,
-      "live_yield_diff_5y": 0.12598990949884473,
-      "live_yield_diff": 0.2560618673070009,
+      "live_yield": 0.012519778928125109,
+      "avg_yield_5y": 0.011121710428855958,
+      "live_yield_diff_5y": 0.12570624889151732,
+      "live_yield_diff": 0.2557451281971022,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ALLY",
@@ -2712,14 +2712,14 @@
       "yield_diff_baseline": 0.417811,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 37.720001220703125,
+      "price": 37.72999954223633,
       "live_dividend": 1.2,
-      "live_yield": 0.03181336058232585,
-      "avg_yield_5y": 0.03203866180137807,
-      "live_yield_diff_5y": -0.00703216696280764,
-      "live_yield_diff": 0.4095418955394707,
+      "live_yield": 0.0318049301499905,
+      "avg_yield_5y": 0.032038656711771064,
+      "live_yield_diff_5y": -0.007295142361405293,
+      "live_yield_diff": 0.4091683717319673,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "FMC",
@@ -2736,14 +2736,14 @@
       "yield_diff_baseline": 1.848265,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 5.614999771118164,
+      "price": 5.619999885559082,
       "live_dividend": 2.32,
-      "live_yield": 0.4131790017042152,
-      "avg_yield_5y": 0.030342772057210414,
-      "live_yield_diff_5y": 12.617048598103633,
-      "live_yield_diff": 20.397151823107983,
+      "live_yield": 0.4128113963064973,
+      "avg_yield_5y": 0.030342764853294076,
+      "live_yield_diff_5y": 12.604936738705987,
+      "live_yield_diff": 20.378114775064596,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SLGN",
@@ -2760,14 +2760,14 @@
       "yield_diff_baseline": 0.163476,
       "note": "★2026.06 미반영(수동확인 필요)",
       "asset_category": "주식",
-      "price": 37.47999954223633,
+      "price": 37.470001220703125,
       "live_dividend": 0.8,
-      "live_yield": 0.021344717443192003,
-      "avg_yield_5y": 0.015387532542525877,
-      "live_yield_diff_5y": 0.3871436102053727,
-      "live_yield_diff": 0.5717759531069222,
+      "live_yield": 0.021350412968707877,
+      "avg_yield_5y": 0.01538753623716201,
+      "live_yield_diff_5y": 0.3875134160298572,
+      "live_yield_diff": 0.5721953585204622,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "ASML",
@@ -2791,7 +2791,7 @@
       "live_yield_diff_5y": -0.6339149791845508,
       "live_yield_diff": -0.6548549413891813,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SCHD",
@@ -2809,14 +2809,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 34.10499954223633,
+      "price": 34.099998474121094,
       "live_dividend": 1.315,
-      "live_yield": 0.03855739679373041,
-      "avg_yield_5y": 0.03405935722261934,
-      "live_yield_diff_5y": 0.13206472282230428,
+      "live_yield": 0.03856305157896032,
+      "avg_yield_5y": 0.034059361051809935,
+      "live_yield_diff_5y": 0.13223062289100268,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "VIG",
@@ -2834,14 +2834,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 242.0399932861328,
+      "price": 242.0500030517578,
       "live_dividend": 4.511,
-      "live_yield": 0.01863741582023275,
-      "avg_yield_5y": 0.01741932272596305,
-      "live_yield_diff_5y": 0.069927695435263,
+      "live_yield": 0.018636645086244467,
+      "avg_yield_5y": 0.017419322204624874,
+      "live_yield_diff_5y": 0.06988348153387913,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "VYM",
@@ -2859,14 +2859,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 159.9600067138672,
+      "price": 159.97000122070312,
       "live_dividend": 4.518,
-      "live_yield": 0.028244559954799797,
-      "avg_yield_5y": 0.027033608958201095,
-      "live_yield_diff_5y": 0.04479427805851056,
+      "live_yield": 0.02824279530864494,
+      "avg_yield_5y": 0.027033607832675326,
+      "live_yield_diff_5y": 0.04472904554412004,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DGRO",
@@ -2884,14 +2884,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 78.57499694824219,
+      "price": 78.58999633789062,
       "live_dividend": 1.863,
-      "live_yield": 0.023709832292162468,
-      "avg_yield_5y": 0.021790841473268846,
-      "live_yield_diff_5y": 0.08806409891273254,
+      "live_yield": 0.02370530712318905,
+      "avg_yield_5y": 0.021790838630800925,
+      "live_yield_diff_5y": 0.08785657701498747,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DGRW",
@@ -2916,7 +2916,7 @@
       "live_yield_diff_5y": -0.14137449079333803,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "NOBL",
@@ -2934,14 +2934,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 56.875,
+      "price": 56.86000061035156,
       "live_dividend": 1.448,
-      "live_yield": 0.02545934065934066,
-      "avg_yield_5y": 0.019701281313170706,
-      "live_yield_diff_5y": 0.2922682669538135,
+      "live_yield": 0.025466056708701237,
+      "avg_yield_5y": 0.019701285480354956,
+      "live_yield_diff_5y": 0.29260888758221365,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SDY",
@@ -2959,14 +2959,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 154.02000427246094,
+      "price": 153.9600067138672,
       "live_dividend": 4.647,
-      "live_yield": 0.030171405473924485,
-      "avg_yield_5y": 0.02464050486412909,
-      "live_yield_diff_5y": 0.22446376972766968,
+      "live_yield": 0.030183163142077498,
+      "avg_yield_5y": 0.024640512208300987,
+      "live_yield_diff_5y": 0.22494057294431086,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DVY",
@@ -2991,7 +2991,7 @@
       "live_yield_diff_5y": 0.20679925021320344,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "HDV",
@@ -3016,7 +3016,7 @@
       "live_yield_diff_5y": 0.05942643148424312,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SPYD",
@@ -3034,14 +3034,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 46.89500045776367,
+      "price": 46.869998931884766,
       "live_dividend": 2.5490000000000004,
-      "live_yield": 0.054355474466745685,
-      "avg_yield_5y": 0.043646975609600944,
-      "live_yield_diff_5y": 0.2453434334815449,
+      "live_yield": 0.05438446891591381,
+      "avg_yield_5y": 0.04364699270558335,
+      "live_yield_diff_5y": 0.24600724001213747,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SPHD",
@@ -3059,14 +3059,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 50.1150016784668,
+      "price": 50.130001068115234,
       "live_dividend": 2.646,
-      "live_yield": 0.052798561536054424,
-      "avg_yield_5y": 0.03935203755213358,
-      "live_yield_diff_5y": 0.341698291126778,
+      "live_yield": 0.0527827636868527,
+      "avg_yield_5y": 0.03935202642718999,
+      "live_yield_diff_5y": 0.3412972209833353,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "RDVY",
@@ -3091,7 +3091,7 @@
       "live_yield_diff_5y": -0.35295342852233486,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "JEPI",
@@ -3109,14 +3109,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 57.17499923706055,
+      "price": 57.15999984741211,
       "live_dividend": 4.924,
-      "live_yield": 0.0861215577735992,
-      "avg_yield_5y": 0.08247157818556854,
-      "live_yield_diff_5y": 0.044257423809907916,
+      "live_yield": 0.08614415698293484,
+      "avg_yield_5y": 0.082471594022206,
+      "live_yield_diff_5y": 0.04453124744672678,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "JEPQ",
@@ -3141,7 +3141,7 @@
       "live_yield_diff_5y": 0.2347727718002103,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "QYLD",
@@ -3166,7 +3166,7 @@
       "live_yield_diff_5y": 0.06794978761801253,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "XYLD",
@@ -3184,14 +3184,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 41.97800064086914,
+      "price": 42.0,
       "live_dividend": 4.625,
-      "live_yield": 0.1101767575728028,
-      "avg_yield_5y": 0.10558146912543068,
-      "live_yield_diff_5y": 0.04352362668787011,
+      "live_yield": 0.11011904761904762,
+      "avg_yield_5y": 0.10558142631790195,
+      "live_yield_diff_5y": 0.04297745786728673,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "RYLD",
@@ -3209,14 +3209,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 15.404999732971191,
+      "price": 15.390000343322754,
       "live_dividend": 2.025,
-      "live_yield": 0.1314508299319155,
-      "avg_yield_5y": 0.11203059236371052,
-      "live_yield_diff_5y": 0.17334762905793297,
+      "live_yield": 0.13157894443313545,
+      "avg_yield_5y": 0.11203067936720516,
+      "live_yield_diff_5y": 0.17449028405742814,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DIVO",
@@ -3234,14 +3234,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 47.80500030517578,
+      "price": 47.810001373291016,
       "live_dividend": 3.194,
-      "live_yield": 0.06681309443803497,
-      "avg_yield_5y": 0.04950614344479957,
-      "live_yield_diff_5y": 0.3495919857407805,
+      "live_yield": 0.06680610558995556,
+      "avg_yield_5y": 0.049506139528197914,
+      "live_yield_diff_5y": 0.3494509211711784,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "VNQ",
@@ -3259,14 +3259,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 91.44300079345703,
+      "price": 91.44000244140625,
       "live_dividend": 4.279,
-      "live_yield": 0.0467941773877807,
-      "avg_yield_5y": 0.03623085038035458,
-      "live_yield_diff_5y": 0.29155614335659813,
+      "live_yield": 0.04679571178644638,
+      "avg_yield_5y": 0.03623085126438226,
+      "live_yield_diff_5y": 0.29159846245319093,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SCHH",
@@ -3284,14 +3284,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 22.385000228881836,
+      "price": 22.3799991607666,
       "live_dividend": 0.8340000000000001,
-      "live_yield": 0.03725709142160056,
-      "avg_yield_5y": 0.027893475630413177,
-      "live_yield_diff_5y": 0.3356919702390161,
+      "live_yield": 0.03726541694702335,
+      "avg_yield_5y": 0.027893480002405498,
+      "live_yield_diff_5y": 0.33599023656458893,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PFF",
@@ -3316,7 +3316,7 @@
       "live_yield_diff_5y": 0.0811418208854696,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "PFFD",
@@ -3334,14 +3334,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 17.424999237060547,
+      "price": 17.420000076293945,
       "live_dividend": 1.3000000000000003,
-      "live_yield": 0.07460545520341151,
-      "avg_yield_5y": 0.05947633934857842,
-      "live_yield_diff_5y": 0.2543720077687448,
+      "live_yield": 0.07462686534480036,
+      "avg_yield_5y": 0.059476352342729154,
+      "live_yield_diff_5y": 0.2547317110969956,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "VYMI",
@@ -3366,7 +3366,7 @@
       "live_yield_diff_5y": 0.030693158844107508,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "IDV",
@@ -3391,7 +3391,7 @@
       "live_yield_diff_5y": 0.10793777275387675,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "SCHY",
@@ -3416,7 +3416,7 @@
       "live_yield_diff_5y": 0.17281739012438577,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "XLU",
@@ -3434,14 +3434,14 @@
       "yield_diff_baseline": null,
       "note": "ETF",
       "asset_category": "ETF",
-      "price": 41.63999938964844,
+      "price": 41.650001525878906,
       "live_dividend": 1.495,
-      "live_yield": 0.03590297843211909,
-      "avg_yield_5y": 0.028314570882751862,
-      "live_yield_diff_5y": 0.2680036219086687,
+      "live_yield": 0.03589435642808064,
+      "avg_yield_5y": 0.028314566286382015,
+      "live_yield_diff_5y": 0.267699320026108,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "FDVV",
@@ -3466,7 +3466,7 @@
       "live_yield_diff_5y": 0.06953738420850977,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "VOO",
@@ -3484,14 +3484,14 @@
       "yield_diff_baseline": null,
       "note": "비교용 ETF",
       "asset_category": "ETF",
-      "price": 709.4199829101562,
+      "price": 709.4299926757812,
       "live_dividend": 9.168,
-      "live_yield": 0.012923233374948604,
-      "avg_yield_5y": 0.013270851246263237,
-      "live_yield_diff_5y": -0.02619408995429092,
+      "live_yield": 0.012923051033437058,
+      "avg_yield_5y": 0.013270851117585908,
+      "live_yield_diff_5y": -0.02620782051333253,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "QQQ",
@@ -3516,7 +3516,7 @@
       "live_yield_diff_5y": -0.09810291060834164,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     },
     {
       "ticker": "DIA",
@@ -3534,14 +3534,14 @@
       "yield_diff_baseline": null,
       "note": "비교용 ETF",
       "asset_category": "ETF",
-      "price": 521.1400146484375,
+      "price": 521.1799926757812,
       "live_dividend": 8.544,
-      "live_yield": 0.01639482626519057,
-      "avg_yield_5y": 0.01648767520754925,
-      "live_yield_diff_5y": -0.0056314150533585995,
+      "live_yield": 0.01639356867122699,
+      "avg_yield_5y": 0.01648767434225354,
+      "live_yield_diff_5y": -0.005707637661509332,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-10-15T20:10:40Z"
+      "fetched_at": "2026-10-15T22:42:56Z"
     }
   ]
 }
