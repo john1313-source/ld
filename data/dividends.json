@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:06:26Z",
+  "generated_at": "2026-11-19T23:26:46Z",
   "ok_count": 143,
   "failed_count": 3,
   "source": "수페의 배당책 리스트",
@@ -28,7 +28,7 @@
       "live_yield_diff_5y": 0.08215524702056369,
       "live_yield_diff": 0.36608025194108473,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DOV",
@@ -52,7 +52,7 @@
       "live_yield_diff_5y": -0.10650037835602347,
       "live_yield_diff": -0.3531572084499167,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "GPC",
@@ -76,7 +76,7 @@
       "live_yield_diff_5y": 0.28103623808270595,
       "live_yield_diff": 0.24751735765897903,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "NWN",
@@ -100,7 +100,7 @@
       "live_yield_diff_5y": -0.10929113667172159,
       "live_yield_diff": 0.03807253698189129,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PG",
@@ -124,7 +124,7 @@
       "live_yield_diff_5y": 0.005497792039732015,
       "live_yield_diff": -0.023511850678274077,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PH",
@@ -148,7 +148,7 @@
       "live_yield_diff_5y": -0.29519585196605796,
       "live_yield_diff": -0.44333195407986503,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "EMR",
@@ -172,7 +172,7 @@
       "live_yield_diff_5y": -0.22725297605446065,
       "live_yield_diff": -0.43270014057890743,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CINF",
@@ -196,7 +196,7 @@
       "live_yield_diff_5y": -0.15373841501843807,
       "live_yield_diff": -0.2710263835223149,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CL",
@@ -220,7 +220,7 @@
       "live_yield_diff_5y": -0.07140783538799798,
       "live_yield_diff": -0.05228487846235797,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "JNJ",
@@ -244,7 +244,7 @@
       "live_yield_diff_5y": -0.2456133901214627,
       "live_yield_diff": -0.2620675022015974,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "KO",
@@ -268,7 +268,7 @@
       "live_yield_diff_5y": -0.20260532369597734,
       "live_yield_diff": -0.28134689119970696,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "LOW",
@@ -292,7 +292,7 @@
       "live_yield_diff_5y": 0.15867373290695946,
       "live_yield_diff": 0.3836546042590285,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "LANC",
@@ -316,7 +316,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-11-19T22:03:27Z",
+      "fetched_at": "2026-11-19T23:24:29Z",
       "error": "LANC: missing price or dividend"
     },
     {
@@ -341,7 +341,7 @@
       "live_yield_diff_5y": 0.03170491775672097,
       "live_yield_diff": 0.19519761622140364,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "FMCB",
@@ -365,7 +365,7 @@
       "live_yield_diff_5y": -0.0319030889930842,
       "live_yield_diff": -0.13068934106252056,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ITW",
@@ -389,7 +389,7 @@
       "live_yield_diff_5y": 0.10176325566709181,
       "live_yield_diff": 0.14240970185251428,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "HRL",
@@ -413,7 +413,7 @@
       "live_yield_diff_5y": 0.42255866018907545,
       "live_yield_diff": 1.3338182364484803,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "TR",
@@ -437,7 +437,7 @@
       "live_yield_diff_5y": -0.0038454466862611345,
       "live_yield_diff": -0.13112985044480632,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ABM",
@@ -461,7 +461,7 @@
       "live_yield_diff_5y": 0.03815821017414018,
       "live_yield_diff": 0.13022160583984813,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CWT",
@@ -485,7 +485,7 @@
       "live_yield_diff_5y": 0.20462190222733714,
       "live_yield_diff": 0.48285874273588886,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "FRT",
@@ -509,7 +509,7 @@
       "live_yield_diff_5y": 0.05131843917061367,
       "live_yield_diff": 0.19164967594506058,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SCL",
@@ -533,7 +533,7 @@
       "live_yield_diff_5y": 0.2774355349761406,
       "live_yield_diff": 0.9380308649359974,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SJW",
@@ -557,7 +557,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-11-19T22:03:27Z",
+      "fetched_at": "2026-11-19T23:24:29Z",
       "error": "SJW: missing price or dividend"
     },
     {
@@ -582,7 +582,7 @@
       "live_yield_diff_5y": -0.10228959686894755,
       "live_yield_diff": 0.30607371660852406,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CBSH",
@@ -606,7 +606,7 @@
       "live_yield_diff_5y": 0.18207082214981338,
       "live_yield_diff": 0.19353400273559876,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "FUL",
@@ -630,7 +630,7 @@
       "live_yield_diff_5y": 0.5567986593186426,
       "live_yield_diff": 0.7638030297942204,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "TGT",
@@ -654,7 +654,7 @@
       "live_yield_diff_5y": -0.13792077189586832,
       "live_yield_diff": 0.0021015655832178504,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MO",
@@ -678,7 +678,7 @@
       "live_yield_diff_5y": -0.1854813934428789,
       "live_yield_diff": -0.0760890637960129,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MSA",
@@ -702,7 +702,7 @@
       "live_yield_diff_5y": -0.019410549836807275,
       "live_yield_diff": -0.20156259650531938,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SYY",
@@ -726,7 +726,7 @@
       "live_yield_diff_5y": 0.07971375798625892,
       "live_yield_diff": 0.18421418585715787,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "UVV",
@@ -750,7 +750,7 @@
       "live_yield_diff_5y": 0.6441036218662164,
       "live_yield_diff": 1.0246796530441475,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BKH",
@@ -774,7 +774,7 @@
       "live_yield_diff_5y": 2.8516990924499934,
       "live_yield_diff": -0.052321306919740705,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "GWW",
@@ -798,7 +798,7 @@
       "live_yield_diff_5y": -0.27273957867787757,
       "live_yield_diff": -0.5518916423847635,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "NFG",
@@ -822,7 +822,7 @@
       "live_yield_diff_5y": 0.01761997709427267,
       "live_yield_diff": -0.11671531962731313,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "TNC",
@@ -846,7 +846,7 @@
       "live_yield_diff_5y": 0.2484166554147449,
       "live_yield_diff": 0.29723891517243384,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ABBV",
@@ -870,7 +870,7 @@
       "live_yield_diff_5y": -0.29881067260995325,
       "live_yield_diff": -0.3483116995612338,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ABT",
@@ -894,7 +894,7 @@
       "live_yield_diff_5y": 0.22804399523654403,
       "live_yield_diff": 0.359926847463322,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BDX",
@@ -918,7 +918,7 @@
       "live_yield_diff_5y": 0.17400577344953883,
       "live_yield_diff": 0.41691932142400223,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CDUAF",
@@ -942,7 +942,7 @@
       "live_yield_diff_5y": -0.2191672485748704,
       "live_yield_diff": -0.27212330434352794,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "KMB",
@@ -966,7 +966,7 @@
       "live_yield_diff_5y": 0.31196673904947136,
       "live_yield_diff": 0.46967011359803684,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PEP",
@@ -990,7 +990,7 @@
       "live_yield_diff_5y": 0.3727644290724112,
       "live_yield_diff": 0.5033507962426387,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PPG",
@@ -1014,7 +1014,7 @@
       "live_yield_diff_5y": 0.1419574183009106,
       "live_yield_diff": 0.5118108050245134,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "GRC",
@@ -1038,7 +1038,7 @@
       "live_yield_diff_5y": -0.3983603386773854,
       "live_yield_diff": -0.5108721328127444,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MSEX",
@@ -1062,7 +1062,7 @@
       "live_yield_diff_5y": 0.2410111611963418,
       "live_yield_diff": 0.39904953597494003,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "NUE",
@@ -1086,7 +1086,7 @@
       "live_yield_diff_5y": -0.3133689840271947,
       "live_yield_diff": -0.5101154880162366,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SPGI",
@@ -1110,7 +1110,7 @@
       "live_yield_diff_5y": 0.077754976958865,
       "live_yield_diff": -0.09450494066559025,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "WMT",
@@ -1134,7 +1134,7 @@
       "live_yield_diff_5y": -0.3307036342017533,
       "live_yield_diff": -0.5885463980815897,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ED",
@@ -1158,7 +1158,7 @@
       "live_yield_diff_5y": -0.12553065837896776,
       "live_yield_diff": -0.1812856694703575,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ADM",
@@ -1182,7 +1182,7 @@
       "live_yield_diff_5y": 0.09615086400844838,
       "live_yield_diff": 0.09177793883351343,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ADP",
@@ -1206,7 +1206,7 @@
       "live_yield_diff_5y": 0.19303607806488415,
       "live_yield_diff": 0.25227003826021244,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MCD",
@@ -1230,7 +1230,7 @@
       "live_yield_diff_5y": 0.26698671051445577,
       "live_yield_diff": 0.19300832617690458,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MDT",
@@ -1254,7 +1254,7 @@
       "live_yield_diff_5y": -0.046279639787638514,
       "live_yield_diff": 0.14090812980969583,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PNR",
@@ -1278,7 +1278,7 @@
       "live_yield_diff_5y": 0.19231272569900593,
       "live_yield_diff": 0.044163469593843305,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CLX",
@@ -1302,7 +1302,7 @@
       "live_yield_diff_5y": 0.2946078123120641,
       "live_yield_diff": 0.7885343952231229,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SHW",
@@ -1326,7 +1326,7 @@
       "live_yield_diff_5y": 0.013970032708669599,
       "live_yield_diff": 0.07863382754037974,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BEN",
@@ -1350,7 +1350,7 @@
       "live_yield_diff_5y": -0.1554946574758144,
       "live_yield_diff": -0.12261427062720508,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "AFL",
@@ -1374,7 +1374,7 @@
       "live_yield_diff_5y": -0.09082793357093931,
       "live_yield_diff": -0.0798476730332681,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "APD",
@@ -1398,7 +1398,7 @@
       "live_yield_diff_5y": -0.0025920830364267837,
       "live_yield_diff": 0.051593822538879265,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CTAS",
@@ -1422,7 +1422,7 @@
       "live_yield_diff_5y": 0.011970422833883972,
       "live_yield_diff": -0.03344987508399497,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "XOM",
@@ -1446,7 +1446,7 @@
       "live_yield_diff_5y": -0.20515477375597765,
       "live_yield_diff": -0.40048761684230844,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "AMCR",
@@ -1470,7 +1470,7 @@
       "live_yield_diff_5y": 0.29043901121396276,
       "live_yield_diff": 0.5208318162502358,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ATO",
@@ -1494,7 +1494,7 @@
       "live_yield_diff_5y": 0.010785173517133555,
       "live_yield_diff": 0.016815366284112,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BF.B",
@@ -1518,7 +1518,7 @@
       "live_yield_diff_5y": null,
       "live_yield_diff": null,
       "status": "failed",
-      "fetched_at": "2026-11-19T22:03:27Z",
+      "fetched_at": "2026-11-19T23:24:29Z",
       "error": "BF.B: missing price or dividend"
     },
     {
@@ -1543,7 +1543,7 @@
       "live_yield_diff_5y": 0.16042814895350255,
       "live_yield_diff": 0.3884115739281965,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CAH",
@@ -1567,7 +1567,7 @@
       "live_yield_diff_5y": -0.5835486642064325,
       "live_yield_diff": -0.7373585270632314,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CVX",
@@ -1591,7 +1591,7 @@
       "live_yield_diff_5y": -0.1297866311604261,
       "live_yield_diff": -0.18411218915763014,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MKC",
@@ -1615,7 +1615,7 @@
       "live_yield_diff_5y": 0.9817939388532858,
       "live_yield_diff": 1.5105655042815558,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "GD",
@@ -1639,7 +1639,7 @@
       "live_yield_diff_5y": -0.09755367129708489,
       "live_yield_diff": -0.13343164972792868,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CB",
@@ -1663,7 +1663,7 @@
       "live_yield_diff_5y": -0.1101032977357058,
       "live_yield_diff": -0.4005573609385011,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ECL",
@@ -1687,7 +1687,7 @@
       "live_yield_diff_5y": -0.07662838583847281,
       "live_yield_diff": -0.09399741998124521,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "LIN",
@@ -1711,7 +1711,7 @@
       "live_yield_diff_5y": -0.02942634526134556,
       "live_yield_diff": -0.3096392569416328,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ROP",
@@ -1735,7 +1735,7 @@
       "live_yield_diff_5y": 0.307427580339385,
       "live_yield_diff": 0.5824277391620315,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "WST",
@@ -1759,7 +1759,7 @@
       "live_yield_diff_5y": -0.008961029880930399,
       "live_yield_diff": -0.3478371875532603,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "AOS",
@@ -1783,7 +1783,7 @@
       "live_yield_diff_5y": 0.25242429869846744,
       "live_yield_diff": 0.5926640447533871,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BRO",
@@ -1807,7 +1807,7 @@
       "live_yield_diff_5y": 0.27234280456105,
       "live_yield_diff": 0.011343928825230661,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CAT",
@@ -1831,7 +1831,7 @@
       "live_yield_diff_5y": -0.24137517359781155,
       "live_yield_diff": -0.49862945447009666,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ESS",
@@ -1855,7 +1855,7 @@
       "live_yield_diff_5y": 0.09799097912291298,
       "live_yield_diff": 0.24820685456943906,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "IBM",
@@ -1879,7 +1879,7 @@
       "live_yield_diff_5y": -0.17707210608486593,
       "live_yield_diff": -0.27311635706676785,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ALB",
@@ -1903,7 +1903,7 @@
       "live_yield_diff_5y": 0.7175658069451533,
       "live_yield_diff": 0.44770969144974787,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "EXPD",
@@ -1927,7 +1927,7 @@
       "live_yield_diff_5y": -0.2311371014418154,
       "live_yield_diff": -0.3482752082846271,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CHD",
@@ -1951,7 +1951,7 @@
       "live_yield_diff_5y": -0.058979205511525266,
       "live_yield_diff": -0.1326804344991633,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "NEE",
@@ -1975,7 +1975,7 @@
       "live_yield_diff_5y": 0.15246425162163826,
       "live_yield_diff": 0.21592265520453832,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "O",
@@ -1999,7 +1999,7 @@
       "live_yield_diff_5y": 0.1289441047835292,
       "live_yield_diff": 0.2868430231073412,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SJM",
@@ -2023,7 +2023,7 @@
       "live_yield_diff_5y": -0.025329973829580552,
       "live_yield_diff": 0.16899402904935895,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "CHRW",
@@ -2047,7 +2047,7 @@
       "live_yield_diff_5y": -0.14323848653764565,
       "live_yield_diff": -0.2109356568903916,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "TTC",
@@ -2071,7 +2071,7 @@
       "live_yield_diff_5y": -0.0071180319825210284,
       "live_yield_diff": 0.1855501782089161,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "COST",
@@ -2095,7 +2095,7 @@
       "live_yield_diff_5y": -0.5432191331771823,
       "live_yield_diff": -0.7696826465840937,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MSFT",
@@ -2119,7 +2119,7 @@
       "live_yield_diff_5y": 0.005499013460057184,
       "live_yield_diff": -0.4215627108596245,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "WSM",
@@ -2143,7 +2143,7 @@
       "live_yield_diff_5y": -0.23708213460908448,
       "live_yield_diff": -0.40437306373775256,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "KR",
@@ -2167,7 +2167,7 @@
       "live_yield_diff_5y": 0.05534933859461438,
       "live_yield_diff": 0.24722627575007267,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MCK",
@@ -2191,7 +2191,7 @@
       "live_yield_diff_5y": -0.2622477882455405,
       "live_yield_diff": -0.5455768675842126,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BLK",
@@ -2215,7 +2215,7 @@
       "live_yield_diff_5y": -0.13688347134784987,
       "live_yield_diff": -0.145663404827338,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "HD",
@@ -2239,7 +2239,7 @@
       "live_yield_diff_5y": 0.14320894052970787,
       "live_yield_diff": 0.2821710328555433,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MCO",
@@ -2263,7 +2263,7 @@
       "live_yield_diff_5y": 0.06602524138686029,
       "live_yield_diff": -0.14728773922786212,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MKTX",
@@ -2287,7 +2287,7 @@
       "live_yield_diff_5y": 0.3937969185291124,
       "live_yield_diff": 1.4287449168162873,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "UNH",
@@ -2311,7 +2311,7 @@
       "live_yield_diff_5y": 0.6679288529452541,
       "live_yield_diff": 1.024539799290406,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "AVGO",
@@ -2335,7 +2335,7 @@
       "live_yield_diff_5y": -0.5530431413023262,
       "live_yield_diff": -0.6596932519818851,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "BBY",
@@ -2359,7 +2359,7 @@
       "live_yield_diff_5y": -0.13724485949206094,
       "live_yield_diff": 0.12187884838152332,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "HPQ",
@@ -2383,7 +2383,7 @@
       "live_yield_diff_5y": 0.19815290429764842,
       "live_yield_diff": 0.39729303955199186,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "INTU",
@@ -2407,7 +2407,7 @@
       "live_yield_diff_5y": 1.2785789188365217,
       "live_yield_diff": 1.399636592272243,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "LFUS",
@@ -2431,7 +2431,7 @@
       "live_yield_diff_5y": -0.13332292850532795,
       "live_yield_diff": -0.06545341083687224,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "POOL",
@@ -2455,7 +2455,7 @@
       "live_yield_diff_5y": 0.6227525893175365,
       "live_yield_diff": 1.3639017997363547,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SBUX",
@@ -2479,7 +2479,7 @@
       "live_yield_diff_5y": -0.012714510599105716,
       "live_yield_diff": 0.32682932675862836,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "TSCO",
@@ -2503,7 +2503,7 @@
       "live_yield_diff_5y": 0.39838942533168537,
       "live_yield_diff": 0.8274769517199733,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "AMGN",
@@ -2527,7 +2527,7 @@
       "live_yield_diff_5y": -0.22077187273445342,
       "live_yield_diff": -0.17163022896242638,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "FNF",
@@ -2551,7 +2551,7 @@
       "live_yield_diff_5y": 0.3051256547707998,
       "live_yield_diff": 0.6969410848380428,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "TSN",
@@ -2575,7 +2575,7 @@
       "live_yield_diff_5y": 0.04281660931654602,
       "live_yield_diff": 0.45601089874300094,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "AMT",
@@ -2599,7 +2599,7 @@
       "live_yield_diff_5y": 0.28746327500372787,
       "live_yield_diff": 0.7582409539593871,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "NKE",
@@ -2623,7 +2623,7 @@
       "live_yield_diff_5y": 1.6407561715798695,
       "live_yield_diff": 3.2844507412950295,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "JPM",
@@ -2647,7 +2647,7 @@
       "live_yield_diff_5y": -0.14523387573841554,
       "live_yield_diff": -0.13906307536476264,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DKS",
@@ -2671,7 +2671,7 @@
       "live_yield_diff_5y": 0.6057500289015572,
       "live_yield_diff": 0.47973001391310816,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "MSCI",
@@ -2695,7 +2695,7 @@
       "live_yield_diff_5y": 0.11240922493431467,
       "live_yield_diff": 0.3173600174477326,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ALLY",
@@ -2719,7 +2719,7 @@
       "live_yield_diff_5y": 0.12239299251630859,
       "live_yield_diff": 0.6787345352189011,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "FMC",
@@ -2743,7 +2743,7 @@
       "live_yield_diff_5y": 1.4372721093146363,
       "live_yield_diff": 2.8628728770249823,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SLGN",
@@ -2767,7 +2767,7 @@
       "live_yield_diff_5y": 0.3693932982318823,
       "live_yield_diff": 0.5526021552757152,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "ASML",
@@ -2791,7 +2791,7 @@
       "live_yield_diff_5y": -0.22339182211425476,
       "live_yield_diff": -0.24479983990780715,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SCHD",
@@ -2816,7 +2816,7 @@
       "live_yield_diff_5y": 0.130771177272471,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "VIG",
@@ -2841,7 +2841,7 @@
       "live_yield_diff_5y": 0.07932389886474202,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "VYM",
@@ -2866,7 +2866,7 @@
       "live_yield_diff_5y": 0.06438604262349698,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DGRO",
@@ -2891,7 +2891,7 @@
       "live_yield_diff_5y": 0.09308680922928965,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DGRW",
@@ -2916,7 +2916,7 @@
       "live_yield_diff_5y": -0.1640631881652425,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "NOBL",
@@ -2941,7 +2941,7 @@
       "live_yield_diff_5y": 0.24662314620985665,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SDY",
@@ -2966,7 +2966,7 @@
       "live_yield_diff_5y": 0.1887778947576939,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DVY",
@@ -2991,7 +2991,7 @@
       "live_yield_diff_5y": 0.21727782333565748,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "HDV",
@@ -3016,7 +3016,7 @@
       "live_yield_diff_5y": -0.0017856276646391728,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SPYD",
@@ -3041,7 +3041,7 @@
       "live_yield_diff_5y": 0.2161171107395464,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SPHD",
@@ -3066,7 +3066,7 @@
       "live_yield_diff_5y": 0.29316988242177794,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "RDVY",
@@ -3091,7 +3091,7 @@
       "live_yield_diff_5y": -0.3175474605406953,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "JEPI",
@@ -3116,7 +3116,7 @@
       "live_yield_diff_5y": 0.05641974407296707,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "JEPQ",
@@ -3141,7 +3141,7 @@
       "live_yield_diff_5y": 0.3750084870649299,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "QYLD",
@@ -3166,7 +3166,7 @@
       "live_yield_diff_5y": 0.17487546949243626,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "XYLD",
@@ -3191,7 +3191,7 @@
       "live_yield_diff_5y": 0.10550719300306607,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "RYLD",
@@ -3216,7 +3216,7 @@
       "live_yield_diff_5y": 0.1860835330772494,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DIVO",
@@ -3241,7 +3241,7 @@
       "live_yield_diff_5y": 0.4277045854443046,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "VNQ",
@@ -3266,7 +3266,7 @@
       "live_yield_diff_5y": 0.26353517186516995,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SCHH",
@@ -3291,7 +3291,7 @@
       "live_yield_diff_5y": 0.30188186854598303,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PFF",
@@ -3316,7 +3316,7 @@
       "live_yield_diff_5y": 0.1357783713530576,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "PFFD",
@@ -3341,7 +3341,7 @@
       "live_yield_diff_5y": 0.31233771240738184,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "VYMI",
@@ -3366,7 +3366,7 @@
       "live_yield_diff_5y": 0.08127973597974804,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "IDV",
@@ -3391,7 +3391,7 @@
       "live_yield_diff_5y": 0.15035389269704064,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "SCHY",
@@ -3416,7 +3416,7 @@
       "live_yield_diff_5y": 0.2042730699978474,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "XLU",
@@ -3441,7 +3441,7 @@
       "live_yield_diff_5y": 0.227073589516794,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "FDVV",
@@ -3466,7 +3466,7 @@
       "live_yield_diff_5y": 0.10885488735106098,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "VOO",
@@ -3491,7 +3491,7 @@
       "live_yield_diff_5y": 0.050492668223144896,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "QQQ",
@@ -3516,7 +3516,7 @@
       "live_yield_diff_5y": 0.018183651491482676,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     },
     {
       "ticker": "DIA",
@@ -3541,7 +3541,7 @@
       "live_yield_diff_5y": -0.0950164436374987,
       "live_yield_diff": null,
       "status": "ok",
-      "fetched_at": "2026-11-19T22:03:27Z"
+      "fetched_at": "2026-11-19T23:24:29Z"
     }
   ]
 }
